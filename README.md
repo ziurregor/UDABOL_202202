@@ -5,7 +5,7 @@ Natalio Yana 4319751
 
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
-
+Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
 
  Elias Samuel Ancieta Rocha 12873339
