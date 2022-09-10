@@ -11,7 +11,7 @@ Giovana Rosy Balboa Mayta 10680663
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
 <<<<<<< HEAD
-
+Amilkar Daniel Quezo Ticona 9083846
 
 Diego Alejandro Dorado Rojas 11304597
 =======
