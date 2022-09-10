@@ -10,4 +10,4 @@ Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
 Fanor Flores Castro 8911045
 Sergio Osvaldo Arroyo Goncalves 2631732
-## aqui colocar nombre
+
