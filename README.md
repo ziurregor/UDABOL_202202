@@ -38,3 +38,4 @@ Paulo Mauricio Aguilar Soliz 2622061
 Samuel Vilalo Zurita 7838112
 Jherson Jhoel Huanca Quisbert 12864046
 cristian ariel huanca quispe 9110161
+mikaela aramayo 9911855
