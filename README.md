@@ -36,3 +36,4 @@ Jorge Romario Jamachi Varela 6920030
 >>>>>>> a9f4f3cf61efcbc1806c10eda317b0e676065a86
 walter jurgen aguilar flores 6434495
 Diego Alejandro Cornejo Cuquendo 9155549
+Ronald Aguirre Medina
