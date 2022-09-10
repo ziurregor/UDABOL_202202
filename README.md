@@ -15,5 +15,10 @@ Diego Alejandro Dorado Rojas 11304597
 =======
 Fanor Flores Castro 8911045
 Sergio Osvaldo Arroyo Goncalves 2631732
+<<<<<<< HEAD
 ## aqui colocar nombre
 >>>>>>> 3651c11bd5c4e5b5c49c212da25c0242df9aa461
+=======
+Walter Edenilson Ramos Amaya 0033970
+
+>>>>>>> a9f4f3cf61efcbc1806c10eda317b0e676065a86
