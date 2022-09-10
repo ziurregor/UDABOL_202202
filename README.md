@@ -1,7 +1,8 @@
 # UDABOL_202202
 
 Por favor llenar con su nombre y ci
-Natalio Yana
+Natalio Yana 4319751
+
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 
