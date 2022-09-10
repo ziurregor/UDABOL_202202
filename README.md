@@ -8,3 +8,6 @@ Roger Orlando Ruiz Escobar 4308676
  Elias Samuel Ancieta Rocha 12873339
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
+
+
+Diego Alejandro Dorado Rojas 11304597
