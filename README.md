@@ -31,6 +31,7 @@ Beymar Antonio Aliaga Choque 7041610
 
 Jose Miguel Loza Troncoso 12669252
 Mauricio Patrik Plata Gutierrez 10931935
+Jorge Romario Jamachi Varela 6920030
 
 >>>>>>> a9f4f3cf61efcbc1806c10eda317b0e676065a86
 walter jurgen aguilar flores 6434495
