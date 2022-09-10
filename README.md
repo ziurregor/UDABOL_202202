@@ -1,4 +1,4 @@
-Flor Gutierrez Cruz# UDABOL_202202
+# UDABOL_202202
 
 Por favor llenar con su nombre y ci
 
@@ -12,7 +12,7 @@ Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
 <<<<<<< HEAD
 Amilkar Daniel Quezo Ticona 9083846
-
+Flor Gutierrez Cruz 8437859
 Diego Alejandro Dorado Rojas 11304597
 =======
 Fanor Flores Castro 8911045
