@@ -41,3 +41,5 @@ cristian ariel huanca quispe 9110161
 mikaela aramayo 9911855
 
 jefferson canaviri luna 10954950
+Samuel Paniagua Ala 8028972
+
