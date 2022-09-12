@@ -19,6 +19,7 @@ Diego Alejandro Dorado Rojas 11304597
 Fanor Flores Castro 8911045
 Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
+Jesus Chavarria Martinez 9716406
 
 ## aqui colocar nombre
 
