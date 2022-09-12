@@ -39,8 +39,7 @@ Samuel Vilalo Zurita 7838112
 Jherson Jhoel Huanca Quisbert 12864046
 cristian ariel huanca quispe 9110161
 mikaela aramayo 9911855
-
+Joel Torrico Huayhuati 9459513
 jefferson canaviri luna 10954950
 Samuel Paniagua Ala 8028972
-
 JOSE MARIA GOMES PERALTA CI:8257209
