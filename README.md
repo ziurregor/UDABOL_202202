@@ -43,3 +43,4 @@ mikaela aramayo 9911855
 jefferson canaviri luna 10954950
 Samuel Paniagua Ala 8028972
 
+JOSE MARIA GOMES PERALTA CI:8257209
