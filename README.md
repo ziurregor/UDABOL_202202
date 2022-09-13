@@ -47,4 +47,3 @@ Kenneth Egon Tercero Ortiz - CI: 5860714
 Plinio Alex Gonzalo Quispe 8480838
 Leonardo Danilo Claure Chavez 7713754
 Ronald Saucedo Tito 8884246
-saucedo
