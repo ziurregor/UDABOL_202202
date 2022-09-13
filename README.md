@@ -44,3 +44,4 @@ jefferson canaviri luna 10954950
 Samuel Paniagua Ala 8028972
 JOSE MARIA GOMES PERALTA CI:8257209
 Kenneth Egon Tercero Ortiz - CI: 5860714
+Plinio Alex Gonzalo Quispe 8480838
