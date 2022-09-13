@@ -8,6 +8,7 @@ Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
 
+Thomas Clavijo Grandon 9682545
  Elias Samuel Ancieta Rocha 12873339
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
