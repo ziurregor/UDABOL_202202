@@ -50,3 +50,4 @@ Leonardo Danilo Claure Chavez 7713754
 Ronald Saucedo Tito 8884246
 Juan Carlos Aliaga 7924305
 Fabricio Javir Alarcon Lopez 7267637
+Natalio Yana Ticona 4319751
