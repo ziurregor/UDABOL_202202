@@ -16,6 +16,7 @@ Amilkar Daniel Quezo Ticona 9083846
 Flor Gutierrez Cruz 8437859
 Diego Alejandro Dorado Rojas 11304597
 
+Thomas Clavijo Grandon 9682545
 Fanor Flores Castro 8911045
 Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
