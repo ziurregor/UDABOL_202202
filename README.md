@@ -24,7 +24,7 @@ Sergio Osvaldo Arroyo Goncalves 2631732
 ## aqui colocar nombre
 
 Walter Edenilson Ramos Amaya 0033970
-
+Marcial Mamani yujra 6863653
 Andres Arturo Gutierrez Copa 9899773
 
 Beymar Antonio Aliaga Choque 7041610
