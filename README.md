@@ -8,7 +8,6 @@ Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
 
-Thomas Clavijo Grandon 9682545
  Elias Samuel Ancieta Rocha 12873339
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
@@ -48,3 +47,4 @@ Kenneth Egon Tercero Ortiz - CI: 5860714
 Plinio Alex Gonzalo Quispe 8480838
 Leonardo Danilo Claure Chavez 7713754
 Ronald Saucedo Tito 8884246
+rsaucedo
