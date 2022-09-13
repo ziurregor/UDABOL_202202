@@ -2,7 +2,7 @@
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
-Leonardo Danilo Claure Chavez - CI: 7713754
+
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
@@ -45,3 +45,4 @@ Samuel Paniagua Ala 8028972
 JOSE MARIA GOMES PERALTA CI:8257209
 Kenneth Egon Tercero Ortiz - CI: 5860714
 Plinio Alex Gonzalo Quispe 8480838
+Leonardo Danilo Claure Chavez 7713754
