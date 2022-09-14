@@ -53,3 +53,4 @@ Fabricio Javir Alarcon Lopez 7267637
 Natalio Yana Ticona 4319751
 DANIEL COCA FRANCO 8832385
 Jose gonzales patiño 9154499
+Jesus Chavarria Matinez 9716406 
