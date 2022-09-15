@@ -2,7 +2,8 @@
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
-
+Asistencia 2022-09-15
+JOSE MARIA GOMES PERALTA
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
