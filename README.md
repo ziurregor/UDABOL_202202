@@ -55,3 +55,4 @@ DANIEL COCA FRANCO 8832385
 Jose gonzales patiño 9154499
 Jesus Chavarria Matinez 9716406
 Marco Antonio Canqui Orosco 6179370
+Stefania Choque Apaza 13119863
