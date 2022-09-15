@@ -1,5 +1,5 @@
 # UDABOL_202202
-
+Asistencia Andres 15/09/2022
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
 
@@ -9,7 +9,7 @@ Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
 Kevin Franco Zapata Vargas 5246381
  Elias Samuel Ancieta Rocha 12873339
-Andres Gustavo Guzman Achocalla 7351544
+Andres Gustavo Guzman Achocalla 7351544  
 Bryan Alberto Antezana Riveros 7296889
 
 Amilkar Daniel Quezo Ticona 9083846
