@@ -47,7 +47,8 @@ JOSE MARIA GOMES PERALTA CI:8257209
 Kenneth Egon Tercero Ortiz - CI: 5860714
 Plinio Alex Gonzalo Quispe 8480838
 Leonardo Danilo Claure Chavez 7713754
-Ronald Saucedo Tito 8884246
+Ronald Saucedo Tito 8884246 Asistencia 15-09-2022
+Asistencia 15-09-2022
 Juan Carlos Aliaga 7924305
 Fabricio Javir Alarcon Lopez 7267637
 Natalio Yana Ticona 4319751
@@ -55,3 +56,4 @@ DANIEL COCA FRANCO 8832385
 Jose gonzales patiño 9154499
 Jesus Chavarria Matinez 9716406
 Marco Antonio Canqui Orosco 6179370
+   
