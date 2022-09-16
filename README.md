@@ -7,7 +7,7 @@ Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
-Kevin Franco Zapata Vargas 5246381
+
  Elias Samuel Ancieta Rocha 12873339
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
