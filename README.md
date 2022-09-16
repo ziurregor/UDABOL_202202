@@ -2,7 +2,7 @@
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
-
+la fecha de hoy es 15 de septiembre de 2022
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
