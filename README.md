@@ -1,6 +1,6 @@
-15 de septiembre# UDABOL_202202
+﻿15 de septiembre# UDABOL_202202
 
-Por favor llenar con su nombre y ci
+Por favor llenar con su nombre15 de septiembre y ci
 Natalio Yana 4319751
 la fecha de hoy es 15 de septiembre de 2022
 Leonardo Guevara Quispe 9845916
