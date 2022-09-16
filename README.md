@@ -1,5 +1,5 @@
 # UDABOL_202202
-
+asistencia 2022 09 15 gutierrez flor 
 Por favor llenar con su nombre y ci
 
 Leonardo Guevara Quispe 9845916
