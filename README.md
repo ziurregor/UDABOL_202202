@@ -3,7 +3,7 @@
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
 
-Leonardo Guevara Quispe 9845916
+Leonardo Guevara Quispe 9845916  fecha 15/09/2022
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
