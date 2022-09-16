@@ -1,5 +1,6 @@
 # UDABOL_202202
 
+asistencia 15/09/22
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
 
