@@ -1,5 +1,5 @@
 # UDABOL_202202
-
+Asistencia 2022-09-15
 Por favor llenar con su nombre y ci
 
 Leonardo Guevara Quispe 9845916
