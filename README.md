@@ -22,7 +22,7 @@ Fanor Flores Castro 8911045
 Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
 Jesus Chavarria Martinez 9716406
-
+Diego Alejandro Cornejo Cuquendo 9155549
 ## aqui colocar nombre
 
 Walter Edenilson Ramos Amaya 0033970
