@@ -1,4 +1,4 @@
-DEYMAR HUARACHI 10001290
+
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
@@ -23,6 +23,7 @@ Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
 Jesus Chavarria Martinez 9716406
 Diego Alejandro Cornejo Cuquendo 9155549
+Deymar Gabriel Huarachi Mujica  10001290
 ## aqui colocar nombre
 
 Walter Edenilson Ramos Amaya 0033970
