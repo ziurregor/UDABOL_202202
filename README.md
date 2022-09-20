@@ -1,13 +1,14 @@
-# UDABOL_202202
+
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
-
+Asistencia 2022-09-15
+JOSE MARIA GOMES PERALTA
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
 Giovana Rosy Balboa Mayta 10680663
-Kevin Franco Zapata Vargas 5246381
+
  Elias Samuel Ancieta Rocha 12873339
 Andres Gustavo Guzman Achocalla 7351544
 Bryan Alberto Antezana Riveros 7296889
@@ -20,7 +21,9 @@ Thomas Clavijo Grandon 9682545
 Fanor Flores Castro 8911045
 Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
-
+Jesus Chavarria Martinez 9716406
+Diego Alejandro Cornejo Cuquendo 9155549
+Deymar Gabriel Huarachi Mujica  10001290
 ## aqui colocar nombre
 
 Walter Edenilson Ramos Amaya 0033970
@@ -56,4 +59,8 @@ DANIEL COCA FRANCO 8832385
 Jose gonzales patiño 9154499
 Jesus Chavarria Matinez 9716406
 Marco Antonio Canqui Orosco 6179370
-   
+Stefania Choque Apaza 13119863
+Alessandro Beizaga Bolivar 7721074
+marcial_mamani - asistencia
+
+
