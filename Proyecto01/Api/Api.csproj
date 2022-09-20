@@ -4,4 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="DOckerfile.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dockerfile">
+      <Generator>RazorTemplatePreprocessor</Generator>
+      <LastGenOutput>Dockerfile.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
 </Project>

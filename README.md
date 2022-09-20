@@ -61,3 +61,12 @@ Marco Antonio Canqui Orosco 6179370
 Stefania Choque Apaza 13119863
 Alessandro Beizaga Bolivar 7721074
 marcial_mamani - asistencia
+
+
+
+================================
+Para subir  a DOcker:
+
+docker build -t api proyecto01_api .
+
+docker run -it --rm -p 3000:80 --name api proyecto01_api
