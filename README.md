@@ -66,6 +66,7 @@ Marco Antonio Canqui Orosco 6179370
 Stefania Choque Apaza 13119863
 Alessandro Beizaga Bolivar 7721074
 marcial_mamani - asistencia
+Jacqueline Montano 9172145
 
 
 
