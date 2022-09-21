@@ -1,9 +1,14 @@
+<<<<<<< HEAD
 # UDABOL_202202
 Asistencia 15-09-2022
+=======
+
+>>>>>>> 295e51932640780bc47aaee86fec8aa793a22d75
 
 Por favor llenar con su nombre y ci
 Natalio Yana 4319751
-
+Asistencia 2022-09-15
+JOSE MARIA GOMES PERALTA
 Leonardo Guevara Quispe 9845916
 Roger Orlando Ruiz Escobar 4308676
 Max Eddy Soria Antezana 5273148
@@ -21,11 +26,13 @@ Thomas Clavijo Grandon 9682545
 Fanor Flores Castro 8911045
 Marcelo Jorge Cuevas 6717766
 Sergio Osvaldo Arroyo Goncalves 2631732
-
+Jesus Chavarria Martinez 9716406
+Diego Alejandro Cornejo Cuquendo 9155549
+Deymar Gabriel Huarachi Mujica  10001290
 ## aqui colocar nombre
 
 Walter Edenilson Ramos Amaya 0033970
-
+Marcial Mamani yujra 6863653
 Andres Arturo Gutierrez Copa 9899773
 
 Beymar Antonio Aliaga Choque 7041610
@@ -51,3 +58,20 @@ Leonardo Danilo Claure Chavez 7713754
 Ronald Saucedo Tito 8884246
 Juan Carlos Aliaga 7924305
 Fabricio Javir Alarcon Lopez 7267637
+Natalio Yana Ticona 4319751
+DANIEL COCA FRANCO 8832385
+Jose gonzales patiño 9154499
+Jesus Chavarria Matinez 9716406
+Marco Antonio Canqui Orosco 6179370
+Stefania Choque Apaza 13119863
+Alessandro Beizaga Bolivar 7721074
+marcial_mamani - asistencia
+
+
+
+================================
+Para subir  a DOcker:
+
+docker build -t api proyecto01_api .
+
+docker run -it --rm -p 3000:80 --name api proyecto01_api
