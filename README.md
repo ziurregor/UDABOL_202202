@@ -68,7 +68,7 @@ Alessandro Beizaga Bolivar 7721074
 marcial_mamani - asistencia
 Jacqueline Montano 9172145
 Katherine Quiroz Flores 7084568
-
+Manuel Emilio Gonzales Suxo - CI: 9936128
 
 ================================
 Para subir  a DOcker:
