@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # UDABOL_202202
-Asistencia 15-09-2022
+asistencia 15/09/2022
 =======
 
 >>>>>>> 295e51932640780bc47aaee86fec8aa793a22d75
