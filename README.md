@@ -69,6 +69,7 @@ marcial_mamani - asistencia
 Jacqueline Montano 9172145
 Katherine Quiroz Flores 7084568
 Manuel Emilio Gonzales Suxo - CI: 9936128
+willan aguilera bruno 6318126
 
 ================================
 Para subir  a DOcker:
