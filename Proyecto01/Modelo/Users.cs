@@ -9,10 +9,9 @@ namespace Modelo
         [Key]
         [Column("UserId")]
         public int UserId { get; set; }
-
         public string? Name { get; set; }
-
         public bool IsActive { get; set; }
+        public int Edad { get; set; }
     }
 }
 

@@ -4,10 +4,11 @@ using Modelo;
 
 namespace Infrestructura
 {
-    public class UserContext  : DbContext
+    public class ChatContext  : DbContext
     {
         public DbSet<Users> User { get; set; }
 
+        public DbSet<Roles> Rol { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
