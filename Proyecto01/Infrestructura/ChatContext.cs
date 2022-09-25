@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Modelo;
+using Npgsql.EntityFrameworkCore;
 
 namespace Infrestructura
 {
@@ -9,6 +10,7 @@ namespace Infrestructura
         public DbSet<Users> User { get; set; }
 
         public DbSet<Roles> Rol { get; set; }
+     
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

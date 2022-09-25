@@ -9,7 +9,9 @@ namespace Modelo
             [Key]
             [Column("RolId")]
             public int RolId{ get; set; }
-        
+            public string? Nombre { get; set; }
+        //NombreRol
+
     }
 }
 
