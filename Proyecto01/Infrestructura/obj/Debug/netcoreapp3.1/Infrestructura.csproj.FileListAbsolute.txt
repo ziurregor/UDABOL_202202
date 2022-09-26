@@ -1,0 +1,16 @@
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Infrestructura.deps.json
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Infrestructura.runtimeconfig.json
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Infrestructura.runtimeconfig.dev.json
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Infrestructura.dll
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Infrestructura.pdb
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.csproj.AssemblyReference.cache
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.AssemblyInfoInputs.cache
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.AssemblyInfo.cs
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.csproj.CoreCompileInputs.cache
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.csproj.CopyComplete
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.dll
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.pdb
+C:\Users\GIO\Desktop\UDABOL\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\netcoreapp3.1\Infrestructura.genruntimeconfig.cache

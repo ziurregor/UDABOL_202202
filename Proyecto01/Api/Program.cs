@@ -16,7 +16,7 @@ namespace Api
             CreateHostBuilder(args).Build().Run();
         }
         //GEt
-        /put
+        //put
             //delete
             //POst
         public static IHostBuilder CreateHostBuilder(string[] args) =>

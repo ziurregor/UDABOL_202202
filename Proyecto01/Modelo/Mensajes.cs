@@ -11,6 +11,7 @@ namespace Modelo
         public int MensajeId { get; set; }
         public int UseridId { get; set; }
         public string? Mensaje { get; set; }
+        public bool IsActivo { get; set; }
     }
 }
 
