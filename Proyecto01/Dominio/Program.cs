@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Api
+namespace Dominio
 {
     public class Program
     {
@@ -15,7 +15,7 @@ namespace Api
         {
             CreateHostBuilder(args).Build().Run();
         }
-  
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
@@ -24,3 +24,4 @@ namespace Api
                 });
     }
 }
+
