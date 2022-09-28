@@ -1,18 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-<<<<<<< HEAD
-    <TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
-
-=======
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Modelo\Modelo.csproj">
+    <ProjectReference Include="..\Infrestructura\Infrestructura.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
   </ItemGroup>
->>>>>>> infraestructura
 </Project>

@@ -145,6 +145,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrestructura\Infrestructura.csproj">
+      <Project>{4CAD031E-3F2D-4C68-9AAB-74B47BB7FDED}</Project>
+      <Name>Infrestructura</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
