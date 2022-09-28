@@ -9,7 +9,7 @@ namespace Modelo
         [Key]
         [Column("MensajeId")]
         public int MensajeId { get; set; }
-        public Users? User { get; set; }
+        public int UseridId { get; set; }
         public string? Mensaje { get; set; }
     }
 }
