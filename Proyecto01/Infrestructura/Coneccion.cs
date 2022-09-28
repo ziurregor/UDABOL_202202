@@ -30,9 +30,10 @@ namespace Infrestructura
             foreach (var users in lista)
             {
                 db.User.Add(users);
-                    //new User { Name = "Roger.Ruiz@jalasoft.org", IsActive = true });
             }
-                return true;
+
+            var count = db.SaveChanges();
+            return true;
         }
 
         public bool Guardar()

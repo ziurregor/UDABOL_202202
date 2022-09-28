@@ -23,7 +23,7 @@ namespace Test
             var sol1 = resp.Conectar();
 
             List<Users> lista = new List<Users>();
-            lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47,Contraseña="123456" });
+            lista.Add(new Users { UserId = 1,Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47,Contraseña="123456" });
         //        public int UserId { get; set; }
         //public string? Usuario { get; set; }
         //public string? Name { get; set; }
