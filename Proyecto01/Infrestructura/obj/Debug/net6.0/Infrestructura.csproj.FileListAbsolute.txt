@@ -1,0 +1,17 @@
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.csproj.AssemblyReference.cache
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.AssemblyInfoInputs.cache
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.AssemblyInfo.cs
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.csproj.CoreCompileInputs.cache
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Infrestructura.deps.json
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Infrestructura.runtimeconfig.json
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Infrestructura.dll
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Infrestructura.pdb
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Modelo.dll
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\bin\Debug\net6.0\Modelo.pdb
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.csproj.CopyComplete
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.dll
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\refint\Infrestructura.dll
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.pdb
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\Infrestructura.genruntimeconfig.cache
+C:\Users\Ancieta\Desktop\repositorio2\UDABOL_202202\Proyecto01\Infrestructura\obj\Debug\net6.0\ref\Infrestructura.dll
