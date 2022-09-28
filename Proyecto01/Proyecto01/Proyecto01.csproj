@@ -110,5 +110,11 @@
       <HintPath>..\packages\Microsoft.EntityFrameworkCore.Design.3.1.0\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Design.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Infrestructura\Infrestructura.csproj">
+      <Project>{4CAD031E-3F2D-4C68-9AAB-74B47BB7FDED}</Project>
+      <Name>Infrestructura</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
