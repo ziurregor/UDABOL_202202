@@ -14,6 +14,8 @@ namespace Modelo
         //public bool IsActive { get; set; }
         //public int Edad { get; set; }
         //public string? Contraseña { get; set; }
+
+        public Roles? Role { get; set; }    
     }
 }
 

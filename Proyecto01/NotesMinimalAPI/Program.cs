@@ -13,8 +13,8 @@ builder.Services.AddSwaggerGen();
 
 // Connect to PostgreSQL Database
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<Users>(options =>
-    options.UseNpgsql(connectionString));
+//builder.Services.AddDbContext<Users>(options =>
+//    options.UseNpgsql(connectionString));
 
 
 //... rest of the code omitted for brevity
@@ -54,5 +54,5 @@ class NoteDb : DbContext
     {
 
     }
-    public DbSet<Note> Notes => Set<Note>();
+    //public DbSet<Note> Notes => Set<Note>();
 }

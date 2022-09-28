@@ -9,6 +9,8 @@ namespace Infrestructura
         public DbSet<Users> User { get; set; }
 
         public DbSet<Roles> Rol { get; set; }
+
+        public DbSet<Mensajes> Mensaje { get; set;  }
      
         //..
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
