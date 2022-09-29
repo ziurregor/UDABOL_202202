@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrestructura", "Infrestru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{64599355-E172-41ED-A08F-AB97CDC96800}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotesMinimalAPI", "NotesMinimalAPI\NotesMinimalAPI.csproj", "{5789AFBA-B391-41B4-BB3D-1820AD140DCD}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -47,10 +45,6 @@ Global
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Release|anycpu.Build.0 = Release|Any CPU
-		{5789AFBA-B391-41B4-BB3D-1820AD140DCD}.Debug|anycpu.ActiveCfg = Debug|Any CPU
-		{5789AFBA-B391-41B4-BB3D-1820AD140DCD}.Debug|anycpu.Build.0 = Debug|Any CPU
-		{5789AFBA-B391-41B4-BB3D-1820AD140DCD}.Release|anycpu.ActiveCfg = Release|Any CPU
-		{5789AFBA-B391-41B4-BB3D-1820AD140DCD}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
