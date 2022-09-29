@@ -15,7 +15,8 @@ namespace Infrestructura
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source="+ Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db");
+            optionsBuilder.UseSqlite("Data Source=/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Chatuser.db");
+            //Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db");
         }
     }
 }

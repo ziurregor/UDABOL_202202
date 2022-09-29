@@ -27,10 +27,12 @@ namespace Test
             var sol2 = resp.EscribirTabla(lista);
 
 
-            var usuarios = new Infrestructura.Coneccion();
-            foreach (var user in usuarios.LeerTabla())
+            var usuarios = new Dominio.Usuario();//  Infrestructura.Coneccion();
+
+            foreach (var user in usuarios.ListarUsuarios())
             {
                 Console.WriteLine("Intro use"+user.Name);
+                Console.WriteLine("Intro use" + user.IsActive);
             }
 
             Console.Read();
