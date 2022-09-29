@@ -1,16 +1,10 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Modelo
 {
-    public class Mensajes
+    internal class Mensajes_Models
     {
-        [Key]
-        [Column("MensajeId")]
-        public int MensajeId { get; set; }
-        public int UseridId { get; set; }
-        public string? Mensaje { get; set; }
     }
 }
-
