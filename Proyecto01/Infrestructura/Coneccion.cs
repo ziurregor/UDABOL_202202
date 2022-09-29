@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Modelo;
 
 namespace Infrestructura
@@ -7,9 +8,9 @@ namespace Infrestructura
     //public class ConexionTexto : IConexion
     public class Coneccion : IConeccion
     {
-        ChatSQLiteContext db ;
+        ChatSQLiteContext db;
 
-        public  bool Conectar(string cadenaDeConexion, Type tipo)
+        public bool Conectar(string cadenaDeConexion, Type tipo)
         {
             throw new NotImplementedException();
         }
@@ -27,13 +28,18 @@ namespace Infrestructura
 
         public bool EscribirTabla(List<Users> lista)
         {
-            foreach (var users in lista)
+            var itemIndex=0;
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
-                db.User.Add(users);
-            }
+                foreach (var users in lista)
+                {
+                    context.User.Add(users);
+                }
+                context.SaveChanges();
+                 itemIndex = context.User.ToList().Count;// .IndexOf(newTodo);
 
-            var count = db.SaveChanges();
-            return true;
+            }
+            return itemIndex== lista.Count?true:false;
         }
 
         public bool Guardar()
@@ -43,8 +49,17 @@ namespace Infrestructura
 
         public List<Users> LeerTabla()
         {
-            throw new NotImplementedException();
+            
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
+            {
+                return context.User.ToList();
+                //throw new NotImplementedException();
+
+
+
+            }
+            
         }
+
     }
 }
-

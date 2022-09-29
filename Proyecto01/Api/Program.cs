@@ -13,9 +13,16 @@ namespace Api
     {
         public static void Main(string[] args)
         {
+            //
             CreateHostBuilder(args).Build().Run();
+
+            //var con = new 
+
         }
-  
+        //GEt
+        //put
+            //delete
+            //POst
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

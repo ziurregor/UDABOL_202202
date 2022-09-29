@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {}
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
         "projectName": "Infrestructura",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
-        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Infrestructura\\obj\\",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj"
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
               }
             }
           }
@@ -41,30 +42,22 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.2.4, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.2.4, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[2.2.4, )"
             }
           },
           "imports": [
@@ -83,33 +76,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
-        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\obj\\",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "netcoreapp6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -120,8 +114,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "netcoreapp6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -138,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
