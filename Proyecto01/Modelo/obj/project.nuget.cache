@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "4p5/vqcaJFeapmW6KH1WjRZQji3aPSWTmizN1485qjKw+hN/TewOLKx3IRzD8QNcvBfr5BYqUSzV8Hpk+AZ5DQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\HP\\Desktop\\proyecto\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.9\\microsoft.entityframeworkcore.tools.6.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "El paquete Microsoft.EntityFrameworkCore.Tools 6.0.9 no es compatible con netcoreapp3.1 (.NETCoreApp,Version=v3.1). El paquete Microsoft.EntityFrameworkCore.Tools 6.0.9 admite: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Tools",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

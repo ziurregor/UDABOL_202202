@@ -1,0 +1,6 @@
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.AssemblyInfo.cs
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\NotesMinimalAPI\obj\Debug\net6.0\NotesMinimalAPI.MvcApplicationPartsAssemblyInfo.cache
