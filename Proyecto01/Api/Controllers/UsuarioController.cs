@@ -20,10 +20,10 @@ namespace Api.Controllers
         {
             Usuario user = new Dominio.Usuario();
             List<Users> lista = new List<Users>();
-            lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" });
+            //lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" });
+            lista = user.ListarUsuarios(); 
 
-
-             return lista;
+            return lista;
             //return (List<Users>)user.ListarUsuarios();
 
         }

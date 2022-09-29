@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WQaNgCRYa9nJ8p0HWMPZzAee7cXRvQanbVwxaryQP9sfdXjyqknFZrxrX0S9GWnfGMu59zh5ROpVPtoQ0MJwaA==",
+  "dgSpecHash": "zl76e/DDPtKiKIE9/v22boIULdopA5OfsVUR13VV0zj6fauRM1EpV7zuLiY6L+nZPEo+kxgGfOpHVuiHCEokYw==",
   "success": true,
   "projectFilePath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/Api.Test.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "/Users/rogerruizescobar/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
-    "/Users/rogerruizescobar/.nuget/packages/microsoft.data.sqlite.core/2.2.4/microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
+    "/Users/rogerruizescobar/.nuget/packages/microsoft.data.sqlite.core/2.2.6/microsoft.data.sqlite.core.2.2.6.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.dotnet.internalabstractions/1.0.0/microsoft.dotnet.internalabstractions.1.0.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.dotnet.platformabstractions/2.1.0/microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore/3.1.0/microsoft.entityframeworkcore.3.1.0.nupkg.sha512",
@@ -16,8 +16,8 @@
     "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.analyzers/3.1.0/microsoft.entityframeworkcore.analyzers.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.design/3.1.0/microsoft.entityframeworkcore.design.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.0/microsoft.entityframeworkcore.relational.3.1.0.nupkg.sha512",
-    "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.sqlite/2.2.4/microsoft.entityframeworkcore.sqlite.2.2.4.nupkg.sha512",
-    "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/2.2.4/microsoft.entityframeworkcore.sqlite.core.2.2.4.nupkg.sha512",
+    "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.sqlite/2.2.6/microsoft.entityframeworkcore.sqlite.2.2.6.nupkg.sha512",
+    "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/2.2.6/microsoft.entityframeworkcore.sqlite.core.2.2.6.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.entityframeworkcore.tools/3.1.0/microsoft.entityframeworkcore.tools.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.0/microsoft.extensions.caching.abstractions.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.extensions.caching.memory/3.1.0/microsoft.extensions.caching.memory.3.1.0.nupkg.sha512",

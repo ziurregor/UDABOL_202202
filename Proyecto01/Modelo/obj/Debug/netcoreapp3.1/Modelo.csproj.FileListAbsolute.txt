@@ -1,6 +1,4 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.deps.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.runtimeconfig.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.runtimeconfig.dev.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,5 +7,4 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.csproj.CoreCompileInputs.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.pdb
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.genruntimeconfig.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.csproj.AssemblyReference.cache

@@ -11,8 +11,6 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Api.runtimeconfig.dev.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Api.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Api.pdb
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
@@ -33,11 +31,8 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.DotNet.PlatformAbstractions.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Sqlite.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyModel.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_green.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.core.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/alpine-x64/native/libe_sqlite3.so
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/linux-arm/native/libe_sqlite3.so
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/linux-arm64/native/libe_sqlite3.so
@@ -48,10 +43,15 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/osx-x64/native/libe_sqlite3.dylib
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/win8-arm/native/e_sqlite3.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Dominio.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Infrestructura.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Modelo.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Dominio.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Modelo.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Infrestructura.pdb
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Remotion.Linq.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.batteries_green.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/System.Interactive.Async.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/win8-arm/native/e_sqlite3.dll

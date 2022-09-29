@@ -42,7 +42,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "Microsoft.Data.Sqlite.Core/2.2.4": {
+      "Microsoft.Data.Sqlite.Core/2.2.6": {
         "type": "package",
         "dependencies": {
           "SQLitePCLRaw.core": "1.1.12"
@@ -159,10 +159,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite/2.2.4": {
+      "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "2.2.6",
           "SQLitePCLRaw.bundle_green": "1.1.12"
         },
         "compile": {
@@ -172,11 +172,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.4": {
+      "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "2.2.4",
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.4",
+          "Microsoft.Data.Sqlite.Core": "2.2.6",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.6",
           "Microsoft.Extensions.DependencyModel": "2.1.0"
         },
         "compile": {
@@ -1695,7 +1695,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "2.2.4",
-          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "2.2.6",
           "Modelo": "1.0.0"
         },
         "compile": {
@@ -1874,16 +1874,16 @@
         "version.txt"
       ]
     },
-    "Microsoft.Data.Sqlite.Core/2.2.4": {
-      "sha512": "69DJj8bUJpXPfWpmJ/Sh165GWjLjlL516l0GnJDImabfR+leXb61HaQF97THWvyx5yY7MvpO94QW5nyiXMVOAA==",
+    "Microsoft.Data.Sqlite.Core/2.2.6": {
+      "sha512": "JuHLktt4mb5jSTKr+lq4OeuG8tUcCdk/9Gg9kX955+BNcIpSrDqLTcktBOyOIWWUrqBp1zjEbd+/u/9rF57H1w==",
       "type": "package",
-      "path": "microsoft.data.sqlite.core/2.2.4",
+      "path": "microsoft.data.sqlite.core/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.Data.Sqlite.xml",
-        "microsoft.data.sqlite.core.2.2.4.nupkg.sha512",
+        "microsoft.data.sqlite.core.2.2.6.nupkg.sha512",
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
@@ -1987,28 +1987,28 @@
         "packageIcon.png"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite/2.2.4": {
-      "sha512": "SfDyGsk8S+EN/VTli9zOSwzoPkNOTKJ1dzZtXKXZiaDb9OmDxW8mQsKPW8A1CTiZx+/2ACVb8Moc2Sw3cIt6xQ==",
+    "Microsoft.EntityFrameworkCore.Sqlite/2.2.6": {
+      "sha512": "U4ifHn7YJsj31waXLbXwR/HMdQnp/v+bBGw5VfSRqVtO10npQa3LBOXWZTaocXgJBoIX0ADI2ZkfjX+hb0CnJA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite/2.2.4",
+      "path": "microsoft.entityframeworkcore.sqlite/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.sqlite.2.2.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.4": {
-      "sha512": "RezSS0Tli9yfjIJIrwyB334gHymL6/Oy9YM47NyE4kCT0eLkZjs4VKptnX6Pvl8+12oP1gTDvuYZhrhpxfOFoA==",
+    "Microsoft.EntityFrameworkCore.Sqlite.Core/2.2.6": {
+      "sha512": "FRwNvIjcoDaMGExrrGb02ULgY0dhkk70OuY7Bc61wK4rOVHweLiCAaJJ3y3s9w604lM1lBcTWmEilFincRJRhw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.4",
+      "path": "microsoft.entityframeworkcore.sqlite.core/2.2.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Sqlite.xml",
-        "microsoft.entityframeworkcore.sqlite.core.2.2.4.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlite.core.2.2.6.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
