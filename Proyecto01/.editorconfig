@@ -1,4 +1,0 @@
-﻿[*.cs]
-
-# CS0618: El tipo o el miembro están obsoletos
-dotnet_diagnostic.CS0618.severity = suggestion
