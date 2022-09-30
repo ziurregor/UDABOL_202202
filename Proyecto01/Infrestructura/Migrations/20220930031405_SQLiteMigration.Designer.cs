@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Infrestructura.Migrations
 {
     [DbContext(typeof(ChatSQLiteContext))]
-    [Migration("20220929222812_SQLiteMigration")]
+    [Migration("20220930031405_SQLiteMigration")]
     partial class SQLiteMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -16,6 +16,21 @@ namespace Infrestructura.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
+
+            modelBuilder.Entity("Modelo.Mensajes", b =>
+                {
+                    b.Property<int>("MensajeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("MensajeId");
+
+                    b.Property<string>("Mensaje");
+
+                    b.Property<int>("UseridId");
+
+                    b.HasKey("MensajeId");
+
+                    b.ToTable("Mensaje");
+                });
 
             modelBuilder.Entity("Modelo.Roles", b =>
                 {

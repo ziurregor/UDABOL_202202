@@ -15,6 +15,21 @@ namespace Infrestructura.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.2.6-servicing-10079");
 
+            modelBuilder.Entity("Modelo.Mensajes", b =>
+                {
+                    b.Property<int>("MensajeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnName("MensajeId");
+
+                    b.Property<string>("Mensaje");
+
+                    b.Property<int>("UseridId");
+
+                    b.HasKey("MensajeId");
+
+                    b.ToTable("Mensaje");
+                });
+
             modelBuilder.Entity("Modelo.Roles", b =>
                 {
                     b.Property<int>("RolId")

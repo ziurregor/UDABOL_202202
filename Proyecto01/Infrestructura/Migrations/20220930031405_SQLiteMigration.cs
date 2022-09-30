@@ -7,6 +7,20 @@ namespace Infrestructura.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
+                name: "Mensaje",
+                columns: table => new
+                {
+                    MensajeId = table.Column<int>(nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    UseridId = table.Column<int>(nullable: false),
+                    Mensaje = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Mensaje", x => x.MensajeId);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Rol",
                 columns: table => new
                 {
@@ -39,6 +53,9 @@ namespace Infrestructura.Migrations
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Mensaje");
+
             migrationBuilder.DropTable(
                 name: "Rol");
 

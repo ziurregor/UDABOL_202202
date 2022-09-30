@@ -32,6 +32,7 @@
       "Dominio/1.0.0": {
         "dependencies": {
           "Infrestructura": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.6",
           "Modelo": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",

@@ -29,27 +29,32 @@ namespace Api.Controllers
         [HttpPost]
         public async Task<ActionResult<int>> Post(Mensajes mensajes)
         {
-            context.Add(Mensajes);
-            await context.SaveChangesAsync();
-            return Mensajes.Id;
+            //context.Add(Mensajes);
+            Dominio.Mensaje ms = new Dominio.Mensaje();// AdicionarMensajes
+            ms.AdicionarMensajes(mensajes);
+
+
+            //AdicionarMensajes
+            //await context.SaveChangesAsync();
+            return Convert.ToInt16( ms.AdicionarMensajes(mensajes));
         }
 
-        [HttpPut("{id:int}")]
-        public async Task<ActionResult> Put(int id, Mensajes mensajes)
-        {
-            Console.WriteLine("modificar");
-            var mesnajesExiste = await MensajesExiste(id);
-            Console.WriteLine("mensaje no existente: " + MensajesExiste);
+        //[HttpPut("{id:int}")]
+        //public async Task<ActionResult> Put(int id, Mensajes mensajes)
+        //{
+        //    Console.WriteLine("modificar");
+        //    var mesnajesExiste = await MensajesExiste(id);
+        //    Console.WriteLine("mensaje no existente: " + MensajesExiste);
 
-            if (!MesajesExiste)
-            {
-                return NotFound();
-            }
+        //    if (!MesajesExiste)
+        //    {
+        //        return NotFound();
+        //    }
 
-            context.Update(Mensajes);
-            await context.SaveChangesAsync();
-            return NoContent();
-        }
+        //    context.Update(Mensajes);
+        //    await context.SaveChangesAsync();
+        //    return NoContent();
+        //}
     }
 }
 

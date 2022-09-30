@@ -13,6 +13,13 @@ namespace Dominio
         {
         }
 
+        public bool AdicionarUsuario(Users users)
+        {
+            //throw new NotImplementedException();
+            //new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" }
+            return true;
+        }
+
         public Users EliminarUsuarioPorUserId(int userId)
         {
             throw new NotImplementedException();

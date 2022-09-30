@@ -42,6 +42,23 @@ namespace Infrestructura
             return itemIndex== lista.Count?true:false;
         }
 
+
+        public bool EscribirTablaMensaje(List<Mensajes> lista)
+        {
+            var itemIndex = 0;
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
+            {
+                foreach (var mensajes in lista)
+                {
+                    context.Mensaje.Add(mensajes);
+                }
+                context.SaveChanges();
+                itemIndex = context.Mensaje.ToList().Count;// .IndexOf(newTodo);
+
+            }
+            return itemIndex == lista.Count ? true : false;
+        }
+
         public bool Guardar()
         {
             throw new NotImplementedException();
@@ -60,6 +77,7 @@ namespace Infrestructura
             }
             
         }
+
 
     }
 }

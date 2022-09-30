@@ -18,6 +18,8 @@ namespace Modelo
 
         public Users EliminarUsuarioPorUserId(int userId);//solo elimnado logi lo que quiere decir Update Isactive a false
 
+        public bool AdicionarUsuario(Users users);
+
     }
 }
 
