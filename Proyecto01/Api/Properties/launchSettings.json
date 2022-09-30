@@ -20,8 +20,7 @@
     "Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
-      "applicationUrl": "http://localhost:9139",
+      "applicationUrl": "http://localhost:6202",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
