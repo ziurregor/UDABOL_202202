@@ -134,11 +134,11 @@ namespace Infrestructura
         {
             throw new NotImplementedException();
         }
-        public EliminarMensaje(Int32 idMensaje)
+        public bool EliminarMensaje(Int32 idMensaje)
         {
             throw new NotImplementedException();
         }
-        public GuardarMensaje(Mensajes mensaje)
+        public bool GuardarMensaje(Mensajes mensaje)
         {
             throw new NotImplementedException();
         }
