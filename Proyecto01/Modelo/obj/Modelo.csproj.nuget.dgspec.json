@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {}
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj",
         "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Modelo\\obj\\",
+        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "netcoreapp6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,16 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "netcoreapp6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

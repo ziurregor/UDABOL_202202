@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {}
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj",
         "projectName": "Api.Test",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
+        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj",
         "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api.Test\\obj\\",
+        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "netcoreapp6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
-                "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj"
+              "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj": {
+                "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj"
               }
             }
           }
@@ -41,8 +41,28 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "netcoreapp6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,33 +74,38 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
+        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\UDABOL_202202\\Proyecto01\\Api\\obj\\",
+        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "netcoreapp6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -91,20 +116,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "netcoreapp6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [

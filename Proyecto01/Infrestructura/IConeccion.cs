@@ -10,14 +10,19 @@ namespace Infrestructura
 
         public Boolean Conectar();
 
-        public List<Users> LeerTabla();
+        public List<Users> LeerTabla(bool? isactive);
 
         public Boolean EscribirTabla(List<Users> lista);
 
         public Boolean EliminarRegistro(Int32 Id);
 
-        public Boolean Guardar();
+        public Boolean Guardar(Users user);
 
+        public Users UsuarioPorUserId(Int32 Id);
+
+        public List<Users> ListarUsuariosAdministradores();
+
+        public bool Login(string userName, string Password);
     }
 }
 

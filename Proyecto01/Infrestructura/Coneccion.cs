@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Modelo;
 
 namespace Infrestructura
@@ -7,9 +8,10 @@ namespace Infrestructura
     //public class ConexionTexto : IConexion
     public class Coneccion : IConeccion
     {
-        ChatSQLiteContext db ;
+        ChatSQLiteContext db;
 
-        public  bool Conectar(string cadenaDeConexion, Type tipo)
+
+        public bool Conectar(string cadenaDeConexion, Type tipo)
         {
             throw new NotImplementedException();
         }
@@ -22,29 +24,106 @@ namespace Infrestructura
 
         public bool EliminarRegistro(int Id)
         {
-            throw new NotImplementedException();
+            Users user = new Users();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            user = context.User.Find(Id);
+            if (user != null)
+            {
+                user.IsActive = false;
+                context.User.Update(user);
+                return true;
+            }
+            return false;
         }
 
         public bool EscribirTabla(List<Users> lista)
         {
-            foreach (var users in lista)
+            var itemIndex = 0;
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
-                db.User.Add(users);
+                foreach (var users in lista)
+                {
+                    users.Password = Auxiliar.Encriptar(users.Password);
+                    context.User.Add(users);
+                }
+                context.SaveChanges();
+                itemIndex = context.User.ToList().Count;
+
+            }
+            return itemIndex == lista.Count ? true : false;
+        }
+
+        public bool Guardar(Users user)
+        {
+            try
+            {
+                ChatSQLiteContext context = new ChatSQLiteContext();
+                user.Password = Auxiliar.Encriptar(user.Password);
+                context.User.Update(user);
+                return true;
+            }
+            catch (Exception e)
+            {
+                throw new ArgumentNullException("Error al Guardar un usuario", e);
             }
 
-            var count = db.SaveChanges();
-            return true;
         }
 
-        public bool Guardar()
+        public List<Users> LeerTabla(bool? isactive)
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            if (isactive == null)
+            {
+                return context.User.ToList();
+            }
+            else if (isactive == true)
+            {
+                return context.User.Where(Users => Users.IsActive == true).ToList();
+            }
+            else
+            {
+                return context.User.Where(Users => Users.IsActive == false).ToList();
+            }
+
+        }
+        /// <summary>
+        /// Obtener ususario por Id
+        /// </summary>
+        /// <param name="Id">Id De usuario</param>
+        /// <returns>Usuario</returns>
+        public Users UsuarioPorUserId(Int32 Id)
+        {
+            Users user = new Users();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            user = context.User.Find(Id);
+            return user;
         }
 
-        public List<Users> LeerTabla()
+        public List<Users> ListarUsuariosAdministradores()
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            return context.User.Where(Users => Users.Rol.Nombre == "Administrador").ToList();
+        }
+
+        public bool Login(string userName, string Password)
+        {
+            Users users = new Users();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            users = (Users)(context.User.Where(User=> User.Usuario == userName));
+            if (users != null)
+            {
+                string password1 = users.Password;
+                string password2 = Auxiliar.DesEncriptar(password1);
+                if (password2 == Password)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            return false;
         }
     }
 }
-

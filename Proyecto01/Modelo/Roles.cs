@@ -11,10 +11,7 @@ namespace Modelo
         [Column("RolId")]
         public int RolId{ get; set; }
         public string? Nombre { get; set; }
-        //NombreRol
-
-        public List<Users>? User { get; set; }  
-
+        public List<Users>? ListUsers { get; set; }
     }
 }
 
