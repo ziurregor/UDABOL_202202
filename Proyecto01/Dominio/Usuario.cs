@@ -46,6 +46,15 @@ namespace Dominio
             throw new NotImplementedException();
         }
 
+        public bool LoginUsuario(string usuario, string contrasena)
+        {
+            //throw new NotImplementedException();
+
+
+
+            return true;
+        }
+
         public Users UsuarioPorUserId(int userId)
         {
             throw new NotImplementedException();

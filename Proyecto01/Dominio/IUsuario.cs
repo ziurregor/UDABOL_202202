@@ -20,6 +20,8 @@ namespace Modelo
 
         public bool AdicionarUsuario(Users users);
 
+        public bool LoginUsuario(String usuario, string contrasena);
+
     }
 }
 

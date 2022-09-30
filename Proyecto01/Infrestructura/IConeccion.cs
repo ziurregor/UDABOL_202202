@@ -18,6 +18,8 @@ namespace Infrestructura
 
         public Boolean Guardar();
 
+        public Boolean OptieneUsuario(Int32 UserId);
+
     }
 }
 
