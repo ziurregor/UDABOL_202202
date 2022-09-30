@@ -125,5 +125,34 @@ namespace Infrestructura
             }
             return false;
         }
+
+        public List<Mensajes> ListarMensajes()
+        {
+            throw new NotImplementedException();
+        }
+        public List<Mensajes> ListarMensajesUsuario(string userName)
+        {
+            throw new NotImplementedException();
+        }
+        public EliminarMensaje(Int32 idMensaje)
+        {
+            throw new NotImplementedException();
+        }
+        public GuardarMensaje(Mensajes mensaje)
+        {
+            throw new NotImplementedException();
+        }
+        public List<Roles> ListarRoles()
+        {
+            throw new NotImplementedException();
+        }
+        public bool GuardarRol(Roles rol)
+        {
+            throw new NotImplementedException();
+        }
+        public bool EliminarRol(Int32 idRol)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

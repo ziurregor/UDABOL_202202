@@ -5489,19 +5489,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Max-Soria\\.nuget\\packages\\": {}
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
       "projectName": "Api.Test",
-      "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\Api.Test.csproj",
-      "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api.Test\\obj\\",
+      "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5515,8 +5515,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj": {
-              "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Api\\Api.csproj"
+            "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj"
             }
           }
         }

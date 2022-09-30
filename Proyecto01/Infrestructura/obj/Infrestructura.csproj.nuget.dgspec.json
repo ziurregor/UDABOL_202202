@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {}
+    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {
+    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
         "projectName": "Infrestructura",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
-        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Infrestructura\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj": {
-                "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj"
+              "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj"
               }
             }
           }
@@ -79,17 +79,17 @@
         }
       }
     },
-    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj": {
+    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\Modelo.csproj",
-        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyectos\\Proyecto01\\Proyecto01\\Modelo\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

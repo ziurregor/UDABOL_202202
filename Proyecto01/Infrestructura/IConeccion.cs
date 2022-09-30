@@ -23,6 +23,15 @@ namespace Infrestructura
         public List<Users> ListarUsuariosAdministradores();
 
         public bool Login(string userName, string Password);
+
+        public List<Mensajes> ListarMensajes();
+        public List<Mensajes> ListarMensajesUsuario(string userName);
+        public bool EliminarMensaje(Int32 idMensaje);
+        public bool GuardarMensaje(Mensajes mensaje);
+
+        public List<Roles> ListarRoles();
+        public bool GuardarRol(Roles rol);
+        public bool EliminarRol(Int32 idRol);
     }
 }
 
