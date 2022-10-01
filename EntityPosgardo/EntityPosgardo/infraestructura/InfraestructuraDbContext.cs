@@ -1,5 +1,4 @@
 ﻿using EntityPosgardo.modelo;
-using EntityPosgardo.modelo.Seeding;
 using Microsoft.EntityFrameworkCore;
 
 namespace EntityPosgardo.infraestructura
