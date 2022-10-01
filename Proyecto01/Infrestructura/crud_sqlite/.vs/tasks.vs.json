@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "tarea-Form1.Designer",
+      "appliesTo": "crud_sqlite/Form1.Designer.cs",
+      "type": "launch"
+    }
+  ]
+}
