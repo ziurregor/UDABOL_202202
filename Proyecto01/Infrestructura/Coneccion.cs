@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Modelo;
@@ -128,31 +129,66 @@ namespace Infrestructura
 
         public List<Mensajes> ListarMensajes()
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            return context.Mensajes.ToList().OrderBy(Mensajes => Mensajes.Fecha).ToList();
         }
         public List<Mensajes> ListarMensajesUsuario(string userName)
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            return context.Mensajes.Where(Mensaje => Mensaje.Remitente.Name == userName).ToList();
         }
         public bool EliminarMensaje(Int32 idMensaje)
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            Mensajes mensajes = new Mensajes();
+            mensajes = context.Mensajes.Find(idMensaje);
+            if(mensajes != null)
+            {
+                context.Mensajes.Remove(mensajes);
+                return true;
+            }
+            return false;
         }
-        public bool GuardarMensaje(Mensajes mensaje)
+        public bool GuardarMensaje(List<Mensajes> Mensajes)
         {
-            throw new NotImplementedException();
+            var itemIndex = 0;
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
+            {
+                foreach (var mensaje in Mensajes)
+                {
+                    context.Mensajes.Add(mensaje);
+                }
+                context.SaveChanges();
+                itemIndex = context.Mensajes.ToList().Count;
+
+            }
+            return itemIndex == Mensajes.Count ? true : false;
         }
         public List<Roles> ListarRoles()
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext() ;
+            return context.Rol.ToList();
         }
         public bool GuardarRol(Roles rol)
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            context.Rol.Update(rol);
+            return true;
         }
         public bool EliminarRol(Int32 idRol)
         {
-            throw new NotImplementedException();
+            ChatSQLiteContext context = new ChatSQLiteContext();
+            Roles roles = new Roles();
+            roles = context.Rol.Find(idRol);
+            if (roles != null)
+            { 
+                context.Rol.Remove(roles);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Dominio
             return repo.EliminarMensaje(idMensaje);
         }
 
-        public bool GuardarMensaje(Mensajes mensaje)
+        public bool GuardarMensaje(List<Mensajes> mensaje)
         {
             return repo.GuardarMensaje(mensaje);
         }

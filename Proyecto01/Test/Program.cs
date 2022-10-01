@@ -22,7 +22,7 @@ namespace Test
             var resp = new Coneccion();
             List<Users> lista = new List<Users>();
             // UserId = 1,
-            lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47,Contraseña="123456" });
+            lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47,Password="123456" });
 
             var sol2 = resp.EscribirTabla(lista);
 

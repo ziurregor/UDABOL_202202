@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {}
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
+        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
         "projectName": "Api.Test",
-        "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api.Test\\obj\\",
+        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api.Test\\Api.Test.csproj",
+        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj"
+              "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
+                "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj"
               }
             }
           }
@@ -83,17 +83,17 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
+    "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Api\\obj\\",
+        "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

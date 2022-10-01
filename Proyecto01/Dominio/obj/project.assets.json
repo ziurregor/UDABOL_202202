@@ -5804,19 +5804,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\Max-Soria\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\Max-Soria\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Max-Soria\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5830,11 +5830,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj"
+            "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {
+              "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj"
             },
-            "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\UDABOL\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj"
+            "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
+              "projectPath": "C:\\Users\\Max-Soria\\Desktop\\udabol\\Proyecto final\\Git\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj"
             }
           }
         }

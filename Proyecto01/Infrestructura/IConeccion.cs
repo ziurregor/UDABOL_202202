@@ -25,12 +25,17 @@ namespace Infrestructura
         public bool Login(string userName, string Password);
 
         public List<Mensajes> ListarMensajes();
+
         public List<Mensajes> ListarMensajesUsuario(string userName);
+
         public bool EliminarMensaje(Int32 idMensaje);
-        public bool GuardarMensaje(Mensajes mensaje);
+
+        public bool GuardarMensaje(List<Mensajes> mensajes);
 
         public List<Roles> ListarRoles();
+
         public bool GuardarRol(Roles rol);
+
         public bool EliminarRol(Int32 idRol);
     }
 }
