@@ -19,7 +19,7 @@ namespace EntityPosgardo.Controllers
         [HttpGet("get")]
         public async Task<IEnumerable<Usuarios>> Get()
         {
-            return await context.usuario.ToListAsync();
+            return await context.Usuarios.ToListAsync();
         }
 
         [HttpPost("post")]
@@ -29,10 +29,28 @@ namespace EntityPosgardo.Controllers
             await context.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPut]
+        public async Task<ActionResult> update(Usuarios request)
+        {
+            var user = await context.Usuarios.FirstOrDefaultAsync(r => r.UserId == request.UserId);
+
+            if (user == null)
+                return BadRequest("Usuario no encontrado");
+            
+            user.Usuario = request.Usuario;
+            user.Name = request.Name;
+            user.Edad= request.Edad;
+            user.Contraseña = request.Contraseña;
+            context.Update(user);
+            await context.SaveChangesAsync();
+            return Ok();
+        }
+
         [HttpDelete("delete/{id:int}")]
         public async Task<ActionResult> delete(int id)
         {
-            var usuarios = await context.usuario.FirstOrDefaultAsync(r => r.UsuariosId == id);
+            var usuarios = await context.Usuarios.FirstOrDefaultAsync(r => r.UserId == id);
             if (usuarios is null)
             {
                 return NotFound();
@@ -40,19 +58,6 @@ namespace EntityPosgardo.Controllers
             context.Remove(usuarios);
             await context.SaveChangesAsync();
             return Ok();
-        }
-        [HttpDelete("desconectar/{id:int}")]
-        public async Task<ActionResult> desconectar(int id)
-        {
-            var usuarios = await context.usuario.AsTracking().FirstOrDefaultAsync(r => r.UsuariosId == id);
-            if (usuarios is null)
-            {
-                return NotFound();
-            }
-            usuarios.estado = true;
-            await context.SaveChangesAsync();
-            return Ok();
-
         }
     }
 }

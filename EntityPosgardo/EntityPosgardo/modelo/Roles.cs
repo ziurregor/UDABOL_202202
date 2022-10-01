@@ -6,10 +6,9 @@ namespace EntityPosgardo.modelo
     public class Roles
     {
         [Key]
-        public int RolesId { get; set; }
-        public string Cargo { get; set; }
-        public bool estado { get; set; }
-        public HashSet<Usuarios> Usuarios { get; set; }
+        [Column("RolId")]
+        public int RolId { get; set; }
+        public string? Nombre { get; set; }
 
     }
 

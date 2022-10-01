@@ -19,7 +19,7 @@ namespace EntityPosgardo.Controllers
         [HttpGet("get")]
         public async Task<IEnumerable<Roles>> Get()
         {
-            return await context.Cargo.ToListAsync();
+            return await context.Roles.ToListAsync();
         }
 
         [HttpPost("post")]
@@ -29,10 +29,22 @@ namespace EntityPosgardo.Controllers
             await context.SaveChangesAsync();
             return Ok();
         }
+
+        [HttpPut]
+        public async Task<ActionResult> update(Roles request)
+        {
+            var rol = await context.Roles.FirstOrDefaultAsync(r => r.RolId== request.RolId);
+
+            rol.Nombre= request.Nombre;
+            context.Update(rol);
+            await context.SaveChangesAsync();
+            return Ok();
+        }
+
         [HttpDelete("delete/{id:int}")]
         public async Task<ActionResult> delete(int id)
         {
-            var roles = await context.Cargo.FirstOrDefaultAsync(r => r.RolesId == id);
+            var roles = await context.Roles.FirstOrDefaultAsync(r => r.RolId == id);
             if (roles is null)
             {
                 return NotFound();
@@ -40,19 +52,6 @@ namespace EntityPosgardo.Controllers
             context.Remove(roles);
             await context.SaveChangesAsync();
             return Ok();
-        }
-        [HttpDelete("desconectar/{id:int}")]
-        public async Task<ActionResult> desconectar(int id)
-        {
-            var roles = await context.Cargo.AsTracking().FirstOrDefaultAsync(r => r.RolesId == id);
-            if (roles is null)
-            {
-                return NotFound();
-            }
-            roles.estado = true;
-            await context.SaveChangesAsync();
-            return Ok();
-
         }
     }
 }

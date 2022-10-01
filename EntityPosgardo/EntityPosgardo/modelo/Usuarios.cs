@@ -1,14 +1,18 @@
-﻿namespace EntityPosgardo.modelo
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+namespace EntityPosgardo.modelo
 {
     public class Usuarios
     {
-        public int UsuariosId { get; set; }
-        public string nombre { get; set; }
-        public string Detalle { get; set; }
-        public DateTime? FechaNacimiento { get; set; }
-        public bool estado { get; set; }
-        public Roles Roles { get; set; }
-        public HashSet<Mensajes> Mensajes { get; set; }
+        [Key]
+        [Column("UserId")]
+        public int UserId { get; set; }
+        public string? Usuario { get; set; }
+        public string? Name { get; set; }
+        public bool IsActive { get; set; }
+        public int Edad { get; set; }
+        public string? Contraseña { get; set; }
 
     }
 }

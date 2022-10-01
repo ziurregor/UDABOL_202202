@@ -19,7 +19,7 @@ namespace EntityPosgardo.Controllers
         [HttpGet("get")]
         public async Task<IEnumerable<Mensajes>> Get()
         {
-            return await context.Mensaje.ToListAsync();
+            return await context.Mensajes.ToListAsync();
         }
 
         [HttpPost("post")]
@@ -30,10 +30,21 @@ namespace EntityPosgardo.Controllers
             return Ok();
         }
 
+        [HttpPut]
+        public async Task<ActionResult> update(Mensajes request)
+        {
+            var mensaje = await context.Mensajes.FirstOrDefaultAsync(r => r.MensajeId== request.MensajeId);
+
+            mensaje.Mensaje = request.Mensaje;
+            context.Update(mensaje);
+            await context.SaveChangesAsync();
+            return Ok();
+        }
+
         [HttpDelete("delete/{id:int}")]
         public async Task<ActionResult> delete(int id)
         {
-            var mensaje = await context.Mensaje.FirstOrDefaultAsync(r => r.MensajeId == id);
+            var mensaje = await context.Mensajes.FirstOrDefaultAsync(r => r.MensajeId == id);
             if (mensaje is null)
             {
                 return NotFound();
@@ -41,19 +52,6 @@ namespace EntityPosgardo.Controllers
             context.Remove(mensaje);
             await context.SaveChangesAsync();
             return Ok();
-        }
-        [HttpDelete("desconectar/{id:int}")]
-        public async Task<ActionResult> desconectar(int id)
-        {
-            var mensaje= await context.Mensaje.AsTracking().FirstOrDefaultAsync(m => m.MensajeId == id);
-            if (mensaje is null)
-            {
-                return NotFound();
-            }
-            mensaje.estado = true;
-            await context.SaveChangesAsync();
-            return Ok();
-
         }
     }
 }

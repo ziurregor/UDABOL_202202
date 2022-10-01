@@ -6,7 +6,6 @@ namespace EntityPosgardo.infraestructura
 {
     public class InfraestructuraDbContext : DbContext
     {
-        internal object Roles;
 
         public InfraestructuraDbContext(DbContextOptions<InfraestructuraDbContext> options)
             : base(options)
@@ -15,12 +14,12 @@ namespace EntityPosgardo.infraestructura
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Mensajes>().HasKey(Llave_Pk => Llave_Pk.MensajeId);
+            //base.OnModelCreating(modelBuilder);
+            //modelBuilder.Entity<Mensajes>().HasKey(Llave_Pk => Llave_Pk.MensajeId);
 
 
-            //agregar datos a travez de Seeding 
-            Seeding.Seed(modelBuilder);
+            ////agregar datos a travez de Seeding 
+           // Seeding.Seed(modelBuilder);
 
 
             /*
@@ -42,8 +41,8 @@ namespace EntityPosgardo.infraestructura
             */
 
         }
-        public DbSet<Roles> Cargo { get; set; }
-        public DbSet<Usuarios> usuario { get; set; }
-        public DbSet<Mensajes> Mensaje { get; set; }
+        public DbSet<Usuarios> Usuarios { get; set; }
+        public DbSet<Roles> Roles { get; set; }
+        public DbSet<Mensajes> Mensajes { get; set; }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj": {}
+    "D:\\repo\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj": {}
   },
   "projects": {
-    "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj": {
+    "D:\\repo\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
+        "projectUniqueName": "D:\\repo\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
         "projectName": "EntityPosgardo",
-        "projectPath": "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
-        "packagesPath": "C:\\Users\\lguev\\.nuget\\packages\\",
-        "outputPath": "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\obj\\",
+        "projectPath": "D:\\repo\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
+        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lguev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
