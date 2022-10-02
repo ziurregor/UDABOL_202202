@@ -1,27 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {}
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {}
   },
   "projects": {
-    "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
         "projectName": "Modelo",
-        "projectPath": "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj",
-        "packagesPath": "C:\\Users\\Alexis\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\obj\\",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +45,7 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.9, )"
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -63,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
