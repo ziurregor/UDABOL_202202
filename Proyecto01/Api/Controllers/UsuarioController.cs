@@ -55,20 +55,6 @@ namespace Api.Controllers
         //    await context.SaveChangesAsync();
         //    return NoContent();
         //}
-
-        [HttpPost]
-        public async Task<ActionResult<int>> Post(Users usuarios)
-        {
-            //context.delete(Usuarios);
-            Dominio.Usuario ms = new Dominio.Usuario();// EliminarUsuarios
-            ms.EliminarUsuarioPorUserId(usuarios.id);
-
-
-            //EliminarUsuarios
-            //await context.SaveChangesAsync();
-            return Convert.ToInt16( ms.EliminarUsuarioPorUserId(usuarios.id));
-        }
-
     }
 }
 
