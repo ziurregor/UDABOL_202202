@@ -6,7 +6,7 @@ using System.Collections;
 
 namespace Dominio
 {
-    public class Mensaje:IMensaje
+    public class Mensaje : IMensaje
     {
         public Mensaje()
         {
@@ -21,6 +21,12 @@ namespace Dominio
             var resp = new Coneccion();
             var sol2 = resp.EscribirTablaMensaje(lista);
             return true;
+        }
+        //DIOMINIO DELETE o elimnar mensaje
+        public Mensajes EliminarMensajesUltimo(Modelo.Mensajes mensaje)
+        {
+            //throw new NotImplementedException();
+            return mensaje;
         }
 
         public Mensajes EliminarMensajesUltimo(Users users)
