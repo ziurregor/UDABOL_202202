@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\repo\\UDABOL_202202\\Proyecto01\\Infrestructura\\Infrestructura.csproj": {}
   },
   "projects": {
@@ -30,6 +31,38 @@
             "projectReferences": {
               "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj": {
                 "projectPath": "D:\\repo\\UDABOL_202202\\Proyecto01\\Modelo\\Modelo.csproj"
+=======
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
+        "projectName": "Infrestructura",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
+>>>>>>> main
               }
             }
           }
@@ -41,6 +74,7 @@
         }
       },
       "frameworks": {
+<<<<<<< HEAD
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
@@ -51,16 +85,42 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.0, )"
+=======
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+>>>>>>> main
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[6.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[6.0.0, )"
+=======
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+>>>>>>> main
             }
           },
           "imports": [
@@ -79,6 +139,7 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
@@ -95,12 +156,35 @@
         "configFilePaths": [
           "C:\\Users\\Alexis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+>>>>>>> main
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+=======
+>>>>>>> main
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -123,7 +207,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
+<<<<<<< HEAD
               "version": "[6.0.9, )"
+=======
+              "version": "[3.1.0, )"
+>>>>>>> main
             }
           },
           "imports": [
@@ -142,7 +230,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+>>>>>>> main
         }
       }
     }
