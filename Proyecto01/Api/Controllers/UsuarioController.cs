@@ -27,16 +27,13 @@ namespace Api.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<int>> Post(Mensajes mensajes)
+        public int Post(Modelo.Usuarios usuarios)
+        //Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
         {
-            //context.Add(Mensajes);
-            Dominio.Mensaje ms = new Dominio.Mensaje();// AdicionarMensajes
-            ms.AdicionarMensajes(mensajes);
-
-
-            //AdicionarMensajes
-            //await context.SaveChangesAsync();
-            return Convert.ToInt16( ms.AdicionarMensajes(mensajes));
+            // Boolean respuesta = false;
+            Dominio.Usuario ms = new Dominio.Usuario();// AdicionarUsuarios
+            var a = ms.EliminarUsuarioPorUserId(usuarios.UserId);
+            return 1;//ver como devolver OK
         }
 
         //[HttpPut("{id:int}")]
