@@ -9,7 +9,7 @@ se ha creado una api con una sola capa
     "SqlServerConnection": "Server=.;Database=EntityPosgardo;Integrated Segurity=True",
     "DefaultConnection": "User ID =postgres;Password=Leo2805;Server=localhost;Port=5432;Database=EntityPosgardo;Integrated Security=true;Pooling=true;"
   }
-
+  //opciones => opciones.UseSqlServer(Conexion_base) 
 #Comando basico 
 crear migraciones 
     Add-Migration post

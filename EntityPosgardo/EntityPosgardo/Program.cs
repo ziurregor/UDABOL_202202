@@ -13,7 +13,7 @@ builder.Services.AddSwaggerGen();
 var Conexion_base = builder.Configuration.GetConnectionString("PostgreSQLConnection");
 builder.Services.AddDbContext<InfraestructuraDbContext>(
     opciones => opciones.UseNpgsql(Conexion_base)
-    //opciones => opciones.UseSqlServer(Conexion_base) 
+    
     );
 
 

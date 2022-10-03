@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D1bjUN9Qdtvc99dpdBruBwwUUS1mHCvmi7MkFmBLu6bTScJPUUz3NA31BfRY/X8xNSZGg6078xiUjZYbHZKtlg==",
+  "dgSpecHash": "Pg2xnutttKHsJGDAfGn7Fe2sE5LUnBASe/opKTniz+JvfgnLs71d7KjWNY48eiGY1QL+I1XNI9eA7UV0voxdMg==",
   "success": true,
-  "projectFilePath": "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
+  "projectFilePath": "E:\\udabol\\posgrado\\Sistemas de Información 2022-02\\proyecto\\UDABOL_202202\\EntityPosgardo\\EntityPosgardo\\EntityPosgardo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lguev\\.nuget\\packages\\geoapi.coordinatesystems\\1.7.5\\geoapi.coordinatesystems.1.7.5.nupkg.sha512",
     "C:\\Users\\lguev\\.nuget\\packages\\geoapi.core\\1.7.5\\geoapi.core.1.7.5.nupkg.sha512",
