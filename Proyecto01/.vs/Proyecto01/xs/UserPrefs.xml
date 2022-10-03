@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Dominio/Usuario.cs">
+    <Files>
+      <File FileName="Dominio/Dominio.csproj" Line="1" Column="1" />
+      <File FileName="Modelo/Users.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/ChatSQLiteContext.cs" Line="12" Column="9" />
+      <File FileName="Infrestructura/Coneccion.cs" Line="9" Column="37" />
+      <File FileName="Infrestructura/Infrestructura.csproj" Line="5" Column="45" />
+      <File FileName="Modelo/Mensajes.cs" Line="1" Column="1" />
+      <File FileName="Modelo/Roles.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Startup.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Mensaje.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Program.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Rol.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Usuario.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Proyecto01" expanded="True">
+            <Node name="Dominio" expanded="True" />
+            <Node name="Modelo" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>db</Value>
+          <Value>lista</Value>
+          <Value>users</Value>
+          <Value>Environment.CurrentDirectory</Value>
+          <Value>"Data Source="+ Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db"</Value>
+          <Value>app.UseHttpsRedirection()</Value>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Proyecto01" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
