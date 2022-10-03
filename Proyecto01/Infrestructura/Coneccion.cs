@@ -78,7 +78,13 @@ namespace Infrestructura
             
         }
 
-        public bool OptieneUsuario(int UserId)
+        public Modelo.Users OptieneUsuario(int UserId)
+        {
+            //throw new NotImplementedException();
+            return new Modelo.Users { UserId = 1, Name ="Roger Ruiz", Contraseña ="123456", Edad =30, IsActive =true, Usuario="Usuario1"};
+        }
+
+        public Users OptieneUsuarioPorUsername(string usuario)
         {
             throw new NotImplementedException();
         }

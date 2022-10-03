@@ -18,7 +18,9 @@ namespace Infrestructura
 
         public Boolean Guardar();
 
-        public Boolean OptieneUsuario(Int32 UserId);
+        public Modelo.Users OptieneUsuario(Int32 UserId);
+
+        public Modelo.Users OptieneUsuarioPorUsername(String usuario);
 
     }
 }
