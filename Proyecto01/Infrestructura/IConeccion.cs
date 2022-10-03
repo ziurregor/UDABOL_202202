@@ -10,33 +10,18 @@ namespace Infrestructura
 
         public Boolean Conectar();
 
-        public List<Users> LeerTabla(bool? isactive);
+        public List<Users> LeerTabla();
 
         public Boolean EscribirTabla(List<Users> lista);
 
         public Boolean EliminarRegistro(Int32 Id);
 
-        public Boolean Guardar(Users user);
+        public Boolean Guardar();
 
-        public Users UsuarioPorUserId(Int32 Id);
+        public Modelo.Users OptieneUsuario(Int32 UserId);
 
-        public List<Users> ListarUsuariosAdministradores();
+        public Modelo.Users OptieneUsuarioPorUsername(String usuario);
 
-        public bool Login(string userName, string Password);
-
-        public List<Mensajes> ListarMensajes();
-
-        public List<Mensajes> ListarMensajesUsuario(string userName);
-
-        public bool EliminarMensaje(Int32 idMensaje);
-
-        public bool GuardarMensaje(List<Mensajes> mensajes);
-
-        public List<Roles> ListarRoles();
-
-        public bool GuardarRol(Roles rol);
-
-        public bool EliminarRol(Int32 idRol);
     }
 }
 

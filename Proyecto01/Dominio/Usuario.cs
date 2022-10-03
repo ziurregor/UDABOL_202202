@@ -20,32 +20,65 @@ namespace Dominio
 
         public List<Users> ListarUsuarios()
         {
-            return repo.LeerTabla(null);
+            return repo.LeerTabla();
+            //return repo.LeerTabla(null);
         }
 
         public List<Users> ListarUsuariosActivos()
         {
-            return repo.LeerTabla(true);
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (!users.IsActive)
+                    lista.Remove(users);
+            
+            }
+
+            return lista;
         }
 
         public List<Users> ListarUsuariosAdministradores()
         {
-            return repo.ListarUsuariosAdministradores();
+            //return repo.ListarUsuariosAdministradores();
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (!users.IsActive)
+                    lista.Remove(users);
+
+            }
+
+            return lista;
         }
 
         public List<Users> ListarUsuariosInActivos()
         {
-            return repo.LeerTabla(false);
+            //return repo.LeerTabla(false);
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (users.IsActive)
+                    lista.Remove(users);
+
+            }
+
+            return lista;
         }
 
         public Users UsuarioPorUserId(int userId)
         {
-            return repo.UsuarioPorUserId(userId);
+            return repo.OptieneUsuario(userId);
         }
 
         public bool Login(string userName, string Password)
         {
-            return repo.Login(userName, Password);
+            //return repo.Login(userName, Password);
+            //se busca el usuario y el password de la lista de usuarios
+            return true;
+
         }
     }
 }

@@ -11,12 +11,13 @@ namespace Infrestructura
         public DbSet<Users> User { get; set; }
         
         public DbSet<Roles> Rol { get; set; }
-     
-        public DbSet<Mensajes> Mensajes { get; set; }
+
+        public DbSet<Mensajes> Mensaje { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source="+ Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db");
+            optionsBuilder.UseSqlite("Data Source=/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Chatuser.db");
+            //Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db");
         }
     }
 }
