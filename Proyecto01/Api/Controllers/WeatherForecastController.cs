@@ -13,7 +13,8 @@ namespace Api.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+            "Hoooolaaaa", "Me parece insteresante", "No lo creo :0", "Cool",
+            "Quien soy?", "Aguita de coco", "Hamburgesas de platano", "Ayer cuando era hoy", "No entiendo", "Me quede asi :O"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
@@ -26,12 +27,13 @@ namespace Api.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+           
             var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
-            {
-                Date = DateTime.Now.AddDays(index),
-                TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+            return Enumerable.Range(1, 100).Select(index => new WeatherForecast
+            {               
+                MensajeId = rng.Next(0, 1000),
+                UseridId = rng.Next(-20, 55),
+                Mensaje = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
         }
