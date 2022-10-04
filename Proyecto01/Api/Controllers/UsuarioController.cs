@@ -27,12 +27,12 @@ namespace Api.Controllers
         }
 
         [HttpPost]
-        public int Post(Modelo.Usuarios usuarios)
+        public int Post(Modelo.Users users)
         //Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
         {
             // Boolean respuesta = false;
-            Dominio.Usuario ms = new Dominio.Usuario();// AdicionarUsuarios
-            var a = ms.EliminarUsuarioPorUserId(usuarios.UserId);
+            Dominio.Usuario us = new Dominio.Usuario();// AdicionarUsuarios
+            var a = us.EliminarUsuarioPorUserId(users);
             return 1;//ver como devolver OK
         }
 
