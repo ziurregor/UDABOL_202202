@@ -73,6 +73,11 @@ namespace Dominio
             return repo.OptieneUsuario(userId);
         }
 
+        public Users UsuarioPorNombre(string usuario)
+        {
+            return repo.OptieneUsuarioPorUsername(usuario);
+        }
+
         public bool Login(string userName, string Password)
         {
             //return repo.Login(userName, Password);

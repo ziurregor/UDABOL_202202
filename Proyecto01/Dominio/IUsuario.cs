@@ -16,6 +16,8 @@ namespace Dominio
 
         public Users UsuarioPorUserId(int userId);
 
+        public Users UsuarioPorNombre(string usuario);
+
         public bool EliminarUsuarioPorUserId(int userId);//solo elimnado logi lo que quiere decir Update Isactive a false
 
         public bool Login(string userName, string Password);
