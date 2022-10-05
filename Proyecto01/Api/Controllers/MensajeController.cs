@@ -34,4 +34,3 @@ namespace Api.Controllers
         //get http://localhost:PUER/api/Usuario/{Userid}   ==devuelve un usuario
     }
 }
-

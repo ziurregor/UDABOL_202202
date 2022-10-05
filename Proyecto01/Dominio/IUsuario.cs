@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Modelo;
 
-namespace Dominio
+namespace Modelo
 {
     public interface IUsuario
     {
@@ -16,9 +16,11 @@ namespace Dominio
 
         public Users UsuarioPorUserId(int userId);
 
-        public bool EliminarUsuarioPorUserId(int userId);//solo elimnado logi lo que quiere decir Update Isactive a false
+        public Users EliminarUsuarioPorUserId(int userId);//solo elimnado logi lo que quiere decir Update Isactive a false
 
-        public bool Login(string userName, string Password);
+        public bool AdicionarUsuario(Users users);
+
+        public bool LoginUsuario(String usuario, string contrasena);
 
     }
 }

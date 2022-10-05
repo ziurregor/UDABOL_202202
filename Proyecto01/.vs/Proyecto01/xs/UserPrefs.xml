@@ -8,25 +8,24 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Modelo/Roles.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/UsuarioController.cs">
     <Files>
-      <File FileName="WebApplication1/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" Line="39" Column="26" />
-      <File FileName="WebApplication1/Views/Shared/_Layout.cshtml" Line="34" Column="14" />
-      <File FileName="WebApplication1/Views/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="Dominio/Usuario.cs" Line="41" Column="9" />
-      <File FileName="Dominio/Rol.cs" Line="1" Column="1" />
-      <File FileName="Infrestructura/Rol.cs" Line="1" Column="1" />
-      <File FileName="Modelo/Roles.cs" Line="1" Column="1" />
+      <File FileName="Dominio/Usuario.cs" Line="18" Column="13" />
+      <File FileName="Modelo/Roles.cs" Line="11" Column="42" />
+      <File FileName="Api/Controllers/UsuarioController.cs" Line="38" Column="1" />
+      <File FileName="Dominio/IUsuario.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
+            <Node name="Api" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+            </Node>
             <Node name="Dominio" expanded="True" />
             <Node name="Infrestructura" expanded="True" />
-            <Node name="Modelo" expanded="True">
-              <Node name="Roles.cs" selected="True" />
-            </Node>
+            <Node name="Test" expanded="True" />
           </Node>
         </State>
       </Pad>

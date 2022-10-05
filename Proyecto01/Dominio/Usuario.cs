@@ -13,72 +13,60 @@ namespace Dominio
         {
         }
 
-        public bool EliminarUsuarioPorUserId(int userId)
+        public bool AdicionarUsuario(Users users)
         {
-            return repo.EliminarRegistro(userId);
+            //throw new NotImplementedException();
+            //new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" }
+
+            var resp = new Coneccion();
+            List<Users> lista = new List<Users>();
+            // UserId = 1,
+            lista.Add(users); //new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" });
+
+            return resp.EscribirTabla(lista);
+
+
+             
+        }
+
+        public Users EliminarUsuarioPorUserId(int userId)
+        {
+            throw new NotImplementedException();
         }
 
         public List<Users> ListarUsuarios()
         {
+            //throw new NotImplementedException();
             return repo.LeerTabla();
-            //return repo.LeerTabla(null);
         }
 
         public List<Users> ListarUsuariosActivos()
         {
-            List<Users> lista = repo.LeerTabla();
-
-            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
-            {
-                if (!users.IsActive)
-                    lista.Remove(users);
-            
-            }
-
-            return lista;
+            throw new NotImplementedException();
         }
 
         public List<Users> ListarUsuariosAdministradores()
         {
-            //return repo.ListarUsuariosAdministradores();
-            List<Users> lista = repo.LeerTabla();
-
-            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
-            {
-                if (!users.IsActive)
-                    lista.Remove(users);
-
-            }
-
-            return lista;
+            throw new NotImplementedException();
         }
 
         public List<Users> ListarUsuariosInActivos()
         {
-            //return repo.LeerTabla(false);
-            List<Users> lista = repo.LeerTabla();
+            throw new NotImplementedException();
+        }
 
-            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
-            {
-                if (users.IsActive)
-                    lista.Remove(users);
+        public bool LoginUsuario(string usuario, string contrasena)
+        {
+            //throw new NotImplementedException();
 
-            }
 
-            return lista;
+
+            return true;
         }
 
         public Users UsuarioPorUserId(int userId)
         {
-            return repo.OptieneUsuario(userId);
-        }
-
-        public bool Login(string userName, string Password)
-        {
-            //return repo.Login(userName, Password);
-            //se busca el usuario y el password de la lista de usuarios
-            return true;
-
+            throw new NotImplementedException();
         }
     }
 }
