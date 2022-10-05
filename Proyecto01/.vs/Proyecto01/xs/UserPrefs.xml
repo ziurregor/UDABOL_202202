@@ -1,44 +1,37 @@
 ﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Dominio/Usuario.cs">
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Modelo/Roles.cs">
     <Files>
-      <File FileName="Dominio/Dominio.csproj" Line="1" Column="1" />
-      <File FileName="Modelo/Users.cs" Line="1" Column="1" />
-      <File FileName="Infrestructura/ChatSQLiteContext.cs" Line="12" Column="9" />
-      <File FileName="Infrestructura/Coneccion.cs" Line="9" Column="37" />
-      <File FileName="Infrestructura/Infrestructura.csproj" Line="5" Column="45" />
-      <File FileName="Modelo/Mensajes.cs" Line="1" Column="1" />
-      <File FileName="Modelo/Roles.cs" Line="1" Column="1" />
-      <File FileName="Dominio/Startup.cs" Line="1" Column="1" />
-      <File FileName="Dominio/Mensaje.cs" Line="1" Column="1" />
-      <File FileName="Dominio/Program.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" Line="39" Column="26" />
+      <File FileName="WebApplication1/Views/Shared/_Layout.cshtml" Line="34" Column="14" />
+      <File FileName="WebApplication1/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Dominio/Usuario.cs" Line="41" Column="9" />
       <File FileName="Dominio/Rol.cs" Line="1" Column="1" />
-      <File FileName="Dominio/Usuario.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/Rol.cs" Line="1" Column="1" />
+      <File FileName="Modelo/Roles.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
             <Node name="Dominio" expanded="True" />
-            <Node name="Modelo" expanded="True" />
+            <Node name="Infrestructura" expanded="True" />
+            <Node name="Modelo" expanded="True">
+              <Node name="Roles.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>db</Value>
-          <Value>lista</Value>
-          <Value>users</Value>
-          <Value>Environment.CurrentDirectory</Value>
-          <Value>"Data Source="+ Directory.GetParent(Environment.CurrentDirectory).Parent.FullName + "/Chatuser.db"</Value>
-          <Value>app.UseHttpsRedirection()</Value>
-        </State>
+        <State />
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
@@ -47,5 +40,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

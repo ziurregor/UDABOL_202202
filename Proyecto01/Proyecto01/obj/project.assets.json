@@ -1162,8 +1162,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Infrestructura >= 1.0.0",
-      "Modelo >= 1.0.0"
+      "Infrestructura >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1173,11 +1172,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj",
-      "projectName": "Dominio",
-      "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj",
+      "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/Proyecto01.csproj",
+      "projectName": "Proyecto01",
+      "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/Proyecto01.csproj",
       "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
-      "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/",
+      "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -1197,9 +1196,6 @@
           "projectReferences": {
             "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
               "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj"
-            },
-            "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
-              "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
             }
           }
         }
