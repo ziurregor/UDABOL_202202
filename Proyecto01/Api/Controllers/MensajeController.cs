@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -29,8 +29,31 @@ namespace Api.Controllers
 
             return 1;//ver como devolver OK
         }
+
+
+        [HttpDelete("{id}")]
+        public Boolean DeleteMensajePorId (int id)
+        {
+            Dominio.Mensaje ms = new Dominio.Mensaje();
+
+            boolean encontrado = false;
+            List<Mensajes> listMensajes = ms.ListarMensajes()
+            for(int i = 0; i < listMensajes.Count; i++)
+            {
+                if(listMensajes[i].MensajeId == id)
+                {
+                    encontrado = true; //verificamos si mensaje existe
+                }
+            }
+            if(encontrado){
+                return ms.EliminarMensaje(id);  // eliminamos Mensaje por ID}
+            }else{
+                return false;
+            }
+        }
         //get http://localhost:PUER/api/Mensaje   ==devuelve la lista de Mensajes
         //get http://localhost:PUER/api/Usuario   ==devuelve la lista de usuarios
         //get http://localhost:PUER/api/Usuario/{Userid}   ==devuelve un usuario
     }
 }
+
