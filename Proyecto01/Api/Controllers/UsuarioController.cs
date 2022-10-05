@@ -1,11 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Dominio;
 using Modelo;
-using System.Collections;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -28,14 +27,25 @@ namespace Api.Controllers
         }
 
         [HttpPost]
-        public int Post(Modelo.Users users)
-        //Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
+        public int Post(Modelo.Usuarios usuarios)
+        Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
         {
             // Boolean respuesta = false;
-            Dominio.Usuario us = new Dominio.Usuario();// AdicionarUsuarios
+            Dominio.Usuario ms = new Dominio.Usuario();// AdicionarUsuarios
+            var a = ms.EliminarUsuarioPorUserId(usuarios.UserId);
+            return 1;//ver como devolver OK
+        }
 
-            return us.AdicionarUsuario(users)?1:0;
-           //ver como devolver OK
+        // DELETE: api/ApiWithActions/5
+        [HttpDelete("{id}")]
+        public Boolean DeleteUsuarioPorId (int id)
+        {
+            Dominio.Usuario ms = new Dominio.Usuario();
+            User usuario = ms.UsuarioPorUserId(id);
+            if(usuario==null)                                       //verificamos si el usuario existe
+                return false;
+            var a = ms.EliminarUsuarioPorUserId(id);   // eliminamos Usuario por ID
+            return true;
         }
 
         //[HttpPut("{id:int}")]
