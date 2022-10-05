@@ -30,7 +30,7 @@ namespace Api.Controllers
 
         // DELETE
         [HttpDelete("{id}")]
-        public Boolean DeleteMensajePorId (Int32 id)
+        public Boolean DeleteRolId (Int32 id)
         {
             Dominio.Rol ms = new Dominio.Rol();
             boolean encontrado = false;
