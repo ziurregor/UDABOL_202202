@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Dominio;
 using Modelo;
+using System.Collections;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -32,8 +33,9 @@ namespace Api.Controllers
         {
             // Boolean respuesta = false;
             Dominio.Usuario us = new Dominio.Usuario();// AdicionarUsuarios
-            var a = us.EliminarUsuarioPorUserId(users);
-            return 1;//ver como devolver OK
+
+            return us.AdicionarUsuario(users)?1:0;
+           //ver como devolver OK
         }
 
         //[HttpPut("{id:int}")]

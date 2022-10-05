@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Modelo/Roles.cs">
+    <Files>
+      <File FileName="WebApplication1/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs" Line="39" Column="26" />
+      <File FileName="WebApplication1/Views/Shared/_Layout.cshtml" Line="34" Column="14" />
+      <File FileName="WebApplication1/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Dominio/Usuario.cs" Line="39" Column="9" />
+      <File FileName="Dominio/Rol.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/Rol.cs" Line="1" Column="1" />
+      <File FileName="Modelo/Roles.cs" Line="11" Column="42" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Proyecto01" expanded="True">
+            <Node name="Api" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Proyecto01" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

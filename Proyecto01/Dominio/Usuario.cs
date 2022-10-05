@@ -17,7 +17,16 @@ namespace Dominio
         {
             //throw new NotImplementedException();
             //new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" }
-            return true;
+
+            var resp = new Coneccion();
+            List<Users> lista = new List<Users>();
+            // UserId = 1,
+            lista.Add(users); //new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" });
+
+            return resp.EscribirTabla(lista);
+
+
+             
         }
 
         public Users EliminarUsuarioPorUserId(int userId)
