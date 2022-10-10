@@ -21,7 +21,6 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp3.1/Api.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp3.1/Api.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Api.StaticWebAssets.xml
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Api
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Dominio.deps.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Dominio.runtimeconfig.json

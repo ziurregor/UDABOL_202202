@@ -78,6 +78,9 @@ namespace Infrestructura
             
         }
 
-
+        public bool OptieneUsuario(int UserId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
