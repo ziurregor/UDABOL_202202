@@ -5,7 +5,7 @@ using System;
 
 namespace Dominio
 {
-    public class Mensaje: IMensaje
+    public class Mensaje : IMensaje
     {
         readonly Coneccion repo = new Coneccion();//verificar readonly
 
@@ -26,7 +26,17 @@ namespace Dominio
 
         public bool GuardarMensaje(List<Mensajes> mensaje)
         {
-            return repo.GuardarMensaje(mensaje);
+            throw new NotImplementedException();
         }
+
+        public bool EliminarMensajesUltimo(Mensajes mensajes)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public bool GuardarMensaje(List<Mensajes> mensaje)
+        //{
+        //    return repo.GuardarMensaje(mensaje);
+        //}
     }
 }

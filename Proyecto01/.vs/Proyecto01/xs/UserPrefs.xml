@@ -1,36 +1,39 @@
 ﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/UsuarioController.cs">
     <Files>
-      <File FileName="Dominio/Usuario.cs" Line="18" Column="13" />
-      <File FileName="Modelo/Roles.cs" Line="11" Column="42" />
-      <File FileName="Api/Controllers/UsuarioController.cs" Line="38" Column="1" />
-      <File FileName="Dominio/IUsuario.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/Infrestructura.csproj" Line="1" Column="1" />
+      <File FileName="Api/Controllers/MensajeController.cs" Line="39" Column="20" />
+      <File FileName="Api/Controllers/RolController.cs" Line="37" Column="13" />
+      <File FileName="Dominio/Mensaje.cs" Line="12" Column="9" />
+      <File FileName="Infrestructura/PostgreConeccion.cs" Line="7" Column="37" />
+      <File FileName="Infrestructura/IConeccion.cs" Line="25" Column="6" />
+      <File FileName="Infrestructura/Coneccion.cs" Line="11" Column="30" />
+      <File FileName="Api/Api.csproj" Line="1" Column="1" />
+      <File FileName="Api/Controllers/UsuarioController.cs" Line="44" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
             <Node name="Api" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="Dominio" expanded="True" />
             <Node name="Infrestructura" expanded="True" />
-            <Node name="Test" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>context</Value>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
@@ -39,4 +42,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
 </Properties>

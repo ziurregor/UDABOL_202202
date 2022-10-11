@@ -11,5 +11,7 @@ namespace Dominio
         public bool GuardarRol(Roles rol);
 
         public bool EliminarRol(Int32 idRol);
+
+        public bool EliminarRolUltimo(Roles Rol);
     }
 }

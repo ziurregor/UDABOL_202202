@@ -36,8 +36,8 @@ namespace Api.Controllers
         {
             Dominio.Mensaje ms = new Dominio.Mensaje();
 
-            boolean encontrado = false;
-            List<Mensajes> listMensajes = ms.ListarMensajes()
+            Boolean encontrado = false;
+            List<Mensajes> listMensajes = ms.ListarMensajes();
             for(int i = 0; i < listMensajes.Count; i++)
             {
                 if(listMensajes[i].MensajeId == id)

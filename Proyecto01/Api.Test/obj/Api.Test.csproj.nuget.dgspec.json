@@ -1,0 +1,365 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/Api.Test.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/Api.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/Api.Test.csproj",
+        "projectName": "Api.Test",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/Api.Test.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api.Test/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj",
+        "projectName": "Api",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj"
+              },
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj"
+              },
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
+        "projectName": "Infrestructura",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+                "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "projectName": "Modelo",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

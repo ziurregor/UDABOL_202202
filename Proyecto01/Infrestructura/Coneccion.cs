@@ -21,7 +21,17 @@ namespace Infrestructura
             return true;
         }
 
+        public bool EliminarMensaje(int idMensaje)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool EliminarRegistro(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool EliminarRol(int idRol)
         {
             throw new NotImplementedException();
         }
@@ -64,6 +74,16 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
+        public bool GuardarMensaje(List<Mensajes> mensaje)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool GuardarRol(Roles rol)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Users> LeerTabla()
         {
             
@@ -78,6 +98,21 @@ namespace Infrestructura
             
         }
 
+        public List<Mensajes> ListarMensajes()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Mensajes> ListarMensajesUsuario(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Roles> ListarRoles()
+        {
+            throw new NotImplementedException();
+        }
+
         public Modelo.Users OptieneUsuario(int UserId)
         {
             //throw new NotImplementedException();
@@ -88,5 +123,7 @@ namespace Infrestructura
         {
             throw new NotImplementedException();
         }
+
+
     }
 }

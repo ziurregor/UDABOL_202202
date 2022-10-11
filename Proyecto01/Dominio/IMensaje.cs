@@ -12,6 +12,8 @@ namespace Dominio
 
         public bool EliminarMensaje(Int32 idMensaje);
 
+        public bool EliminarMensajesUltimo(Mensajes mensajes);
+
         public bool GuardarMensaje(List<Mensajes>  mensaje);
     }
 }

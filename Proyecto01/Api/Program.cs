@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Modelo;
 
 namespace Api
 {
@@ -23,35 +24,35 @@ namespace Api
         //put
 
         //delete
-        public boolean mensajeDelete(Mensajes msj)
+        public Boolean mensajeDelete(Mensajes msj)
         {
-            Mensajes mensaje = await _repo.GetMensajeByIdAsync(msj.MensajeId); //verifica si mensaje existe
+            //Mensajes mensaje = await _repo.GetMensajeByIdAsync(msj.MensajeId); //verifica si mensaje existe
 
-            if (mensaje == null)
-                return false;
-            boolean resp = await _repo.Delete(msj.MensajeId); //borra mensaje
+            //if (mensaje == null)
+            //    return false;
+            //Boolean resp = await _repo.Delete(msj.MensajeId); //borra mensaje
 
-            if (resp) //Verifica Borrado
-            {
-                BadRequest(“No se pudo borrar el mensaje”);
-                return false; //Excepcion
-            }
+            //if (resp) //Verifica Borrado
+            //{
+            //    BadRequest(“No se pudo borrar el mensaje”);
+            //    return false; //Excepcion
+            //}
             return true;
         }
 
-        public boolean userDelete(Users user)
+        public Boolean userDelete(Users user)
         {
-            Users usuario = await _repo.GetUserByIdAsync(user.UserId); // verifica si usuario existe
+            //Users usuario = await _repo.GetUserByIdAsync(user.UserId); // verifica si usuario existe
 
-            if (usuario == null)
-                return false;
-            boolean resp = await _repo.Delete(user.UserId); //borra Usuario
+            //if (usuario == null)
+            //    return false;
+            //boolean resp = await _repo.Delete(user.UserId); //borra Usuario
 
-            if (resp) //Verifica Borrado
-            {
-                BadRequest(“No se pudo borrar el mensaje”); //Excepcion
-                return false;
-            }
+            //if (resp) //Verifica Borrado
+            //{
+            //    BadRequest(“No se pudo borrar el mensaje”); //Excepcion
+            //    return false;
+            //}
             return true;
         }
         //POst

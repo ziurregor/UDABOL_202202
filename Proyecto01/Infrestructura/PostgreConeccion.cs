@@ -20,7 +20,17 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
+        public bool EliminarMensaje(int idMensaje)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool EliminarRegistro(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool EliminarRol(int idRol)
         {
             throw new NotImplementedException();
         }
@@ -35,12 +45,47 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
+        public bool GuardarMensaje(List<Mensajes> mensaje)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool GuardarRol(Roles rol)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Users> LeerTabla()
         {
             throw new NotImplementedException();
         }
 
+        public List<Mensajes> ListarMensajes()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Mensajes> ListarMensajesUsuario(string userName)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Roles> ListarRoles()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool OptieneUsuario(int UserId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Users OptieneUsuarioPorUsername(string usuario)
+        {
+            throw new NotImplementedException();
+        }
+
+        Users IConeccion.OptieneUsuario(int UserId)
         {
             throw new NotImplementedException();
         }

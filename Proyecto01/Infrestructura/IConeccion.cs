@@ -22,6 +22,19 @@ namespace Infrestructura
 
         public Modelo.Users OptieneUsuarioPorUsername(String usuario);
 
+        public Boolean EliminarMensaje(Int32 idMensaje);
+
+        public List<Roles> ListarRoles();
+
+        public bool GuardarRol(Roles rol);
+
+        public bool EliminarRol(Int32 idRol);
+
+        public List<Mensajes> ListarMensajes();
+
+        public List<Mensajes> ListarMensajesUsuario(string userName);
+
+        public bool GuardarMensaje(List<Mensajes> mensaje);
     }
 }
 

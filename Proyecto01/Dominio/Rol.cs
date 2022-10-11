@@ -23,5 +23,10 @@ namespace Dominio
         {
             return repo.EliminarRol(idRol);
         }
+
+        public bool EliminarRolUltimo(Roles Rol)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

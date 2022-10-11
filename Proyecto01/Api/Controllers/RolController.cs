@@ -16,12 +16,12 @@ namespace Api.Controllers
     {
         // GET: /<controller>/  api/Rol
         [HttpPost]
-        public int Post(Modelo.Rol Rol)
+        public int Post(Modelo.Roles Rol)
         //Task<ActionResult<int>> Post(Modelo.Rol Rol)
         {
             // Boolean respuesta = false;
 
-            Dominio.Mensaje ms = new Dominio.Mensaje();// AdicionarRol
+            Dominio.Rol ms = new Dominio.Rol();// AdicionarRol
 
             var a = ms.EliminarRolUltimo(Rol);
 
@@ -33,8 +33,8 @@ namespace Api.Controllers
         public Boolean DeleteMensajePorId (Int32 id)
         {
             Dominio.Rol ms = new Dominio.Rol();
-            boolean encontrado = false;
-            List<Roles> listRoles = ms.ListarRoles()
+            Boolean encontrado = false;
+            List<Roles> listRoles = ms.ListarRoles();
             for(int i = 0; i < listRoles.Count; i++)
             {
                 if(listRoles[i].RolId == id)

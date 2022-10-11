@@ -27,8 +27,8 @@ namespace Api.Controllers
         }
 
         [HttpPost]
-        public int Post(Modelo.Usuarios usuarios)
-        Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
+        public int Post(Modelo.Users usuarios)
+        //Task<ActionResult<int>> Post(Modelo.Usuarios usuarios)
         {
             // Boolean respuesta = false;
             Dominio.Usuario ms = new Dominio.Usuario();// AdicionarUsuarios
@@ -41,7 +41,7 @@ namespace Api.Controllers
         public Boolean DeleteUsuarioPorId (int id)
         {
             Dominio.Usuario ms = new Dominio.Usuario();
-            User usuario = ms.UsuarioPorUserId(id);
+            Modelo.Users usuario = ms.UsuarioPorUserId(id);
             if(usuario==null)                                       //verificamos si el usuario existe
                 return false;
             var a = ms.EliminarUsuarioPorUserId(id);   // eliminamos Usuario por ID
