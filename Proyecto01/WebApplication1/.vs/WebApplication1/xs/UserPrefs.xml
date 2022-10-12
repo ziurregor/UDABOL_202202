@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{15451A09-CB30-4FF4-86FC-3005B9FE138D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebApplication1" expanded="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>(String)model.Usuario</Value>
+          <Value>(Modelo.Users)model.Usuario</Value>
+          <Value>data</Value>
+          <Value>data.Usuario</Value>
+          <Value>serializer.Deserialize(json, typeof(model));</Value>
+          <Value>JsonSerializer.Deserialize(JObject.Parse(model.GetRawText()))</Value>
+          <Value>model</Value>
+          <Value>(string)model["Usuario"]</Value>
+          <Value>JsonConvert.DeserializeObject&lt;dynamic&gt;(model)</Value>
+          <Value>JsonDocument.Parse(model).RootElement.GetProperty("Usuario")</Value>
+          <Value>model.Usuario</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

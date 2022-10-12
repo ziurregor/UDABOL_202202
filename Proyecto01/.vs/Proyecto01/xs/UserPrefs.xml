@@ -1,43 +1,44 @@
-﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="Varios proyectos">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/UsuarioController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/LoginController.cs">
     <Files>
-      <File FileName="Infrestructura/Infrestructura.csproj" Line="1" Column="1" />
-      <File FileName="Api/Controllers/MensajeController.cs" Line="39" Column="20" />
-      <File FileName="Api/Controllers/RolController.cs" Line="37" Column="13" />
-      <File FileName="Dominio/Mensaje.cs" Line="12" Column="9" />
-      <File FileName="Infrestructura/PostgreConeccion.cs" Line="7" Column="37" />
-      <File FileName="Infrestructura/IConeccion.cs" Line="38" Column="6" />
-      <File FileName="Infrestructura/Coneccion.cs" Line="11" Column="30" />
-      <File FileName="Api/Api.csproj" Line="1" Column="1" />
-      <File FileName="Api/Controllers/UsuarioController.cs" Line="44" Column="25" />
+      <File FileName="Api/Controllers/LoginController.cs" Line="40" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Proyecto01" expanded="True">
-            <Node name="Api" expanded="True" />
-            <Node name="Dominio" expanded="True" />
+          <Node name="Proyecto01" expanded="True" selected="True">
+            <Node name="Modelo" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State>
-          <Value>context</Value>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Proyecto01" expanded="True" selected="True" />
+          <Value>(String)model.Usuario</Value>
+          <Value>(Modelo.Users)model.Usuario</Value>
+          <Value>data</Value>
+          <Value>data.Usuario</Value>
+          <Value>serializer.Deserialize(json, typeof(model));</Value>
+          <Value>JsonSerializer.Deserialize(JObject.Parse(model.GetRawText()))</Value>
+          <Value>model</Value>
+          <Value>(string)model["Usuario"]</Value>
+          <Value>JsonConvert.DeserializeObject&lt;dynamic&gt;(model)</Value>
+          <Value>JsonDocument.Parse(model).RootElement.GetProperty("Usuario")</Value>
+          <Value>model.Usuario</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Varios proyectos" Name="Varios proyectos">
+      <Items>
+        <StartupItem ItemId="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}" ItemName="Api" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

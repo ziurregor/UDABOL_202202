@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{70FD5FBC-88F6-46E9-99E6-383A2A359395}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebAPI__EF__MVC__Core PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI_EF_MVC_Core/Views/Home/Login.cshtml">
+    <Files>
+      <File FileName="WebAPI_EF_MVC_Core/Startup.cs" Line="11" Column="37" />
+      <File FileName="WebAPI_EF_MVC_Core/Controllers/HomeController.cs" Line="68" Column="1" />
+      <File FileName="WebAPI_EF_MVC_Core/Views/Home/Login.cshtml" Line="48" Column="12" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Presentacion" expanded="True">
+            <Node name="WebAPI_EF_MVC_Core" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>User</Value>
+          <Value> db.User</Value>
+          <Value>db</Value>
+          <Value>response</Value>
+          <Value>users</Value>
+          <Value>response</Value>
+          <Value>users</Value>
+          <Value>response.IsSuccessStatusCode</Value>
+          <Value>Model</Value>
+          <Value>res</Value>
+          <Value>response.IsSuccessStatusCode</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

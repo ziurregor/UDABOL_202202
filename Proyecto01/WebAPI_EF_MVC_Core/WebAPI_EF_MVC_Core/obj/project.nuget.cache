@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oBnKtOw/i6I3xMIparZsFiCLpSl2akIiGHthBZOIQ/tDsQAQs70Ak+0Kmf8aDILFSeBtGFb04ica6kmLs0KBIA==",
+  "dgSpecHash": "vWPfr0rx9b4bsCGa+CcQg3NXAztfXyIUFEPIhBBDM8r07JFEgM3+30E5MJabRoT0g4LKJpIhoNCkIljG3lI80Q==",
   "success": true,
-  "projectFilePath": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
+  "projectFilePath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
   "expectedPackageFiles": [
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnet.webapi.client/5.2.6/microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore/2.1.1/microsoft.aspnetcore.2.1.1.nupkg.sha512",

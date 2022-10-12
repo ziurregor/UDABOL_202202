@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {}
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {}
   },
   "projects": {
-    "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {
+    "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
+        "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
         "projectName": "WebAPI_EF_MVC_Core",
-        "projectPath": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
+        "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
         "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
-        "outputPath": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/obj/",
+        "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
