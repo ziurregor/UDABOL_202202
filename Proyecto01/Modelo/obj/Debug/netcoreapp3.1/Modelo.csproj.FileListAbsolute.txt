@@ -1,0 +1,30 @@
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.deps.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/bin/Debug/netcoreapp3.1/Modelo.pdb
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.AssemblyInfo.cs
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.pdb
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/obj/Debug/netcoreapp3.1/Modelo.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.deps.json
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfo.cs
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\HP\Desktop\proyecto pruebas\rama api1\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.deps.json
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\bin\Debug\netcoreapp3.1\Modelo.pdb
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.AssemblyInfo.cs
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.dll
+C:\Users\HP\Desktop\proyecto\UDABOL_202202\Proyecto01\Modelo\obj\Debug\netcoreapp3.1\Modelo.pdb
