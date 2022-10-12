@@ -71,3 +71,4 @@ C:/Users/Plata/Desktop/uda/UDABOL_202202/UDABOL_202202/Proyecto01/Api/obj/Debug/
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.xml
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp3.1/scopedcss/bundle/Api.styles.css
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll

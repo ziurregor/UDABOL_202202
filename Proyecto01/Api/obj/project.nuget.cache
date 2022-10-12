@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kObomPVbuabi/WiysgBAJbVQSzUWhgW4h1rbgUJyZXuseBOzrApmCSkeioflUY4kDk17xFFjFY+1meDD/Gr+KQ==",
+  "dgSpecHash": "Zg15snVknt7acZULcK/ABQxFfnMf7MFExOzGFfFnOXVSBeSxpKr2pEegGCo3eJGdH1nB4YWqupkVdhnVjeDHHg==",
   "success": true,
   "projectFilePath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Api.csproj",
   "expectedPackageFiles": [
@@ -26,6 +26,7 @@
     "/Users/rogerruizescobar/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.0/microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.extensions.options/3.1.0/microsoft.extensions.options.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/microsoft.extensions.primitives/3.1.0/microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "/Users/rogerruizescobar/.nuget/packages/newtonsoft.json/3.5.8/newtonsoft.json.3.5.8.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/npgsql/4.1.2/npgsql.4.1.2.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/npgsql.entityframeworkcore.postgresql/3.1.0/npgsql.entityframeworkcore.postgresql.3.1.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.2/sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
@@ -39,5 +40,16 @@
     "/Users/rogerruizescobar/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "/Users/rogerruizescobar/.nuget/packages/system.text.json/4.7.0/system.text.json.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json 3.5.8' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

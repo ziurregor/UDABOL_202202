@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {}
+  },
+  "projects": {
+    "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
+        "projectName": "WebAPI_EF_MVC_Core",
+        "projectPath": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core.csproj",
+        "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
+        "outputPath": "/Users/rogerruizescobar/Downloads/WebAPI_EF_MVC_Core/WebAPI_EF_MVC_Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/rogerruizescobar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

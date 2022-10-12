@@ -1681,7 +1681,8 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Dominio": "1.0.0",
-          "Modelo": "1.0.0"
+          "Modelo": "1.0.0",
+          "Newtonsoft.Json": "3.5.8"
         },
         "compile": {
           "bin/placeholder/Api.dll": {}

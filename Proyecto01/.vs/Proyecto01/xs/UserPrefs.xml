@@ -10,23 +10,17 @@
       <File FileName="Api/Controllers/RolController.cs" Line="37" Column="13" />
       <File FileName="Dominio/Mensaje.cs" Line="12" Column="9" />
       <File FileName="Infrestructura/PostgreConeccion.cs" Line="7" Column="37" />
-      <File FileName="Infrestructura/IConeccion.cs" Line="25" Column="6" />
+      <File FileName="Infrestructura/IConeccion.cs" Line="38" Column="6" />
       <File FileName="Infrestructura/Coneccion.cs" Line="11" Column="30" />
       <File FileName="Api/Api.csproj" Line="1" Column="1" />
-      <File FileName="Api/Controllers/UsuarioController.cs" Line="44" Column="17" />
+      <File FileName="Api/Controllers/UsuarioController.cs" Line="44" Column="25" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
-            <Node name="Api" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
-              </Node>
-              <Node name="Controllers" expanded="True" />
-            </Node>
+            <Node name="Api" expanded="True" />
             <Node name="Dominio" expanded="True" />
-            <Node name="Infrestructura" expanded="True" />
           </Node>
         </State>
       </Pad>
