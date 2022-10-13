@@ -145,8 +145,7 @@ C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Do
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Modelo.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Infrestructura.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/staticwebassets/Dominio.StaticWebAssets.Manifest.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/staticwebassets/Dominio.StaticWebAssets.xml
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/scopedcss/bundle/Dominio.styles.css
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.RazorTargetAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CopyComplete
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.genruntimeconfig.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio

@@ -75,7 +75,17 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
+        public bool ModificarUsuario(Users users)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool OptieneUsuario(int UserId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Users OptieneUsuarioPorUserId(int UserId)
         {
             throw new NotImplementedException();
         }
@@ -85,10 +95,10 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
-        Users IConeccion.OptieneUsuario(int UserId)
-        {
-            throw new NotImplementedException();
-        }
+        //Users IConeccion.OptieneUsuario(int UserId)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
 

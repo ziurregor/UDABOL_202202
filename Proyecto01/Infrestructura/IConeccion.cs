@@ -14,14 +14,14 @@ namespace Infrestructura
 
         public Boolean EscribirTabla(List<Users> lista);
 
-        public Boolean EliminarRegistro(Int32 Id);
+        public Boolean EliminarUsuario(Int32 Id);
 
         public Boolean ModificarUsuario(Users users);
 
 
-        public Boolean Guardar();
+        public Boolean GuardarUsuario(Users users);
 
-        public Modelo.Users OptieneUsuario(Int32 UserId);
+        public Modelo.Users OptieneUsuarioPorUserId(int UserId);
 
         public Modelo.Users OptieneUsuarioPorUsername(String usuario);
 

@@ -442,6 +442,23 @@
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
       },
+      "Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Infrestructura": "1.0.0",
+          "Modelo": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Dominio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Infrestructura/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -1149,6 +1166,11 @@
         "version.txt"
       ]
     },
+    "Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Dominio/Dominio.csproj",
+      "msbuildProject": "../Dominio/Dominio.csproj"
+    },
     "Infrestructura/1.0.0": {
       "type": "project",
       "path": "../Infrestructura/Infrestructura.csproj",
@@ -1162,7 +1184,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Infrestructura >= 1.0.0"
+      "Dominio >= 1.0.0",
+      "Infrestructura >= 1.0.0",
+      "Modelo >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1194,8 +1218,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj": {
+              "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj"
+            },
             "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj": {
               "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Infrestructura.csproj"
+            },
+            "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj": {
+              "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Modelo/Modelo.csproj"
             }
           }
         }
@@ -1221,9 +1251,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

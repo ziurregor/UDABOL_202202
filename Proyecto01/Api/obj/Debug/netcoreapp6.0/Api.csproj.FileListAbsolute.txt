@@ -1,0 +1,6 @@
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.csproj.AssemblyReference.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.AssemblyInfo.cs
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/obj/Debug/netcoreapp6.0/Api.MvcApplicationPartsAssemblyInfo.cache

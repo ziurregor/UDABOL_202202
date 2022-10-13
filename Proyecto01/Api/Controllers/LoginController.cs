@@ -7,6 +7,7 @@ using System.Text.Json;
 using Microsoft.Extensions.Hosting;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
+using Modelo;
 //using Newtonsoft.Json;
 //using Newtonsoft.Json.Linq;
 
