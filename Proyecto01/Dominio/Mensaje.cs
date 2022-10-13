@@ -7,24 +7,34 @@ namespace Dominio
 {
     public class Mensaje : IMensaje
     {
-        readonly Coneccion repo = new Coneccion();//verificar readonly
+        readonly Infrestructura.Mensaje repo = new Infrestructura.Mensaje();//verificar readonly
 
         public List<Mensajes> ListarMensajes()
         {
-            return repo.ListarMensajes();
+            return repo.LeerTabla();
         }
 
-        public List<Mensajes> ListarMensajesUsuario(string userName)
-        {
-            return repo.ListarMensajesUsuario(userName);
-        }
+        //public List<Mensajes> ListarMensajesUsuario(string userName)
+        //{
+        //    return repo.ListarMensajesUsuario(userName);
+        //}
 
         public bool EliminarMensaje(Int32 idMensaje)
         {
-            return repo.EliminarMensaje(idMensaje);
+            return repo.EliminarRegistro(idMensaje);
         }
 
-        public bool GuardarMensaje(List<Mensajes> mensaje)
+        public bool GuardarMensaje(Mensajes mensaje)
+        {
+            return repo.GrabaRegistro(mensaje);
+        }
+
+        public Boolean RecuperaMensaje(Int32 Id)
+        {
+            return repo.RecuperaRegistro(Id);
+        }
+
+        public List<Mensajes> ListarMensajesUsuario(string userName)
         {
             throw new NotImplementedException();
         }
@@ -34,9 +44,9 @@ namespace Dominio
             throw new NotImplementedException();
         }
 
-        //public bool GuardarMensaje(List<Mensajes> mensaje)
-        //{
-        //    return repo.GuardarMensaje(mensaje);
-        //}
+        public bool GuardarMensaje(List<Mensajes> mensaje)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

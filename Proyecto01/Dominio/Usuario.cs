@@ -29,9 +29,9 @@ namespace Dominio
              
         }
 
-        public Users EliminarUsuarioPorUserId(int userId)
+        public bool EliminarUsuarioPorUserId(int userId)
         {
-            throw new NotImplementedException();
+            return repo.EliminarUsuario(userId);
         }
 
         public List<Users> ListarUsuarios()
@@ -42,29 +42,73 @@ namespace Dominio
 
         public List<Users> ListarUsuariosActivos()
         {
-            throw new NotImplementedException();
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (!users.IsActive)
+                    lista.Remove(users);
+
+            }
+
+            return lista;
         }
 
         public List<Users> ListarUsuariosAdministradores()
         {
-            throw new NotImplementedException();
+            //return repo.ListarUsuariosAdministradores();
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (!users.IsActive)
+                    lista.Remove(users);
+
+            }
+
+            return lista;
         }
 
         public List<Users> ListarUsuariosInActivos()
         {
-            throw new NotImplementedException();
+            //return repo.LeerTabla(false);
+            List<Users> lista = repo.LeerTabla();
+
+            foreach (var users in lista)//de la lista de usuarios escoje los que is active tienen null
+            {
+                if (users.IsActive)
+                    lista.Remove(users);
+
+            }
+
+            return lista;
         }
 
-        public bool LoginUsuario(string usuario, string contrasena)
+        public bool Login(string userName, string Password)
         {
-            //throw new NotImplementedException();
+            //return repo.Login(userName, Password);
+            //se busca el usuario y el password de la lista de usuarios
 
+            var user = repo.OptieneUsuarioPorUsername(userName);
 
-
+            if(user.Usuario == userName || user.Contraseña==Password)
             return true;
+            return false;
+
         }
 
         public Users UsuarioPorUserId(int userId)
+        {
+            return repo.OptieneUsuarioPorUserId(userId);
+        }
+
+        public Users UsuarioPorNombre(string usuario)
+        {
+            return repo.OptieneUsuarioPorUsername(usuario);
+        }
+
+
+        Users IUsuario.EliminarUsuarioPorUserId(int userId)
         {
             throw new NotImplementedException();
         }
