@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{2F0D70A3-A6E6-40A3-8CF1-155A11453103}|Default">
   <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrestructura/ChatSQLiteContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrestructura/Coneccion.cs">
     <Files>
       <File FileName="Infrestructura/ChatSQLiteContext.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/Coneccion.cs" Line="112" Column="13" />
+      <File FileName="Infrestructura/IConeccion.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
