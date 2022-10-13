@@ -16,6 +16,9 @@ namespace Infrestructura
 
         public Boolean EliminarRegistro(Int32 Id);
 
+        public Boolean ModificarUsuario(Users users);
+
+
         public Boolean Guardar();
 
         public Modelo.Users OptieneUsuario(Int32 UserId);

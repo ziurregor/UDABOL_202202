@@ -86,16 +86,10 @@ namespace Infrestructura
 
         public List<Users> LeerTabla()
         {
-            
             using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
                 return context.User.ToList();
-                //throw new NotImplementedException();
-
-
-
             }
-            
         }
 
         public List<Mensajes> ListarMensajes()
@@ -111,6 +105,15 @@ namespace Infrestructura
         public List<Roles> ListarRoles()
         {
             throw new NotImplementedException();
+        }
+
+        public bool ModificarUsuario(Users users)
+        {
+            throw new NotImplementedException();
+
+
+
+
         }
 
         public Modelo.Users OptieneUsuario(int UserId)
