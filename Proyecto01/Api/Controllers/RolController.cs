@@ -15,6 +15,17 @@ namespace Api.Controllers
     public class RolController : Controller
     {
         // GET: /<controller>/  api/Rol
+        [HttpGet]
+        public IEnumerable<Roles> Get() //IActionResult Index()
+        {
+            Rol rol = new Dominio.Rol();
+            List<Roles> lista = new List<Roles>();
+            lista = rol.ListarRoles();
+
+            return lista;
+        }
+
+        //POST
         [HttpPost]
         public int Post(Modelo.Rol Rol)
         //Task<ActionResult<int>> Post(Modelo.Rol Rol)

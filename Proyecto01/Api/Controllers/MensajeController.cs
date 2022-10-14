@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,6 +15,15 @@ namespace Api.Controllers
     public class MensajeController : Controller
     {
         // GET: /<controller>/  api/Mensajes
+        [HttpGet]
+        public IEnumerable<Mensajes> Get() //IActionResult Index()
+        {
+            Mensaje mensaje = new Dominio.Mensaje();
+            List<Mensajes> lista = new List<Mensajes>();
+            lista = mensaje.ListarMensajes();
+
+            return lista;
+        }
 
         // DELETE
         [HttpPost]
