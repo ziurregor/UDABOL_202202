@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using System.Text.Json.Serialization;
 using Newtonsoft.Json;
 using Modelo;
+using Dominio;
 //using Newtonsoft.Json;
 //using Newtonsoft.Json.Linq;
 
@@ -34,9 +35,11 @@ namespace Api.Controllers
         {
             //var data = JsonConvert.DeserializeObject<Modelo.Users>(model.ToString()); ;
             //JsonConvert.DeserializeObject<dynamic>(model.ToString());
-            if ((String)model.Usuario == "regor" || (String)model.Contraseña == "123456")
-            return true;
-            return false;
+            Usuario user = new Dominio.Usuario();
+            return user.Login((String)model.Usuario, (String)model.Contraseña);
+            //if ((String)model.Usuario == "regor" ||  == "123456")
+            //return true;
+            //return false;
         }
 
 

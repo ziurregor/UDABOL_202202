@@ -8561,11 +8561,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rogerruizescobar/Downloads/WebApplication1/WebApplication1/WebApplication1.csproj",
+      "projectUniqueName": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "/Users/rogerruizescobar/Downloads/WebApplication1/WebApplication1/WebApplication1.csproj",
+      "projectPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/WebApplication1.csproj",
       "packagesPath": "/Users/rogerruizescobar/.nuget/packages/",
-      "outputPath": "/Users/rogerruizescobar/Downloads/WebApplication1/WebApplication1/obj/",
+      "outputPath": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
