@@ -14,10 +14,10 @@ namespace Dominio
             return repo.LeerTabla();
         }
 
-        //public List<Mensajes> ListarMensajesUsuario(string userName)
-        //{
-        //    return repo.ListarMensajesUsuario(userName);
-        //}
+        public List<Mensajes> ListarMensajesUsuario(string userName)
+        {
+            return repo.ListarMensajesUsuario(userName);
+        }
 
         public bool EliminarMensaje(Int32 idMensaje)
         {
@@ -32,6 +32,16 @@ namespace Dominio
         public Boolean RecuperaMensaje(Int32 Id)
         {
             return repo.RecuperaRegistro(Id);
+        }
+
+        public bool EliminarMensajesUltimo(Mensajes mensajes)
+        {
+            return repo.EliminarMensajesUltimo(mensajes);
+        }
+
+        public bool GuardarMensaje(List<Mensajes> mensaje)
+        {
+            return repo.GuardarMensaje(mensaje);
         }
     }
 }

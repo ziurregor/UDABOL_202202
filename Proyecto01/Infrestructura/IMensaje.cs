@@ -18,6 +18,11 @@ namespace Infrestructura
 
         public Boolean GrabaRegistro(Modelo.Mensajes mensajes);
 
+        public List<Mensajes> ListarMensajesUsuario(string userName);
+
+        public bool EliminarMensajesUltimo(Mensajes mensajes);
+
+        public bool GuardarMensaje(List<Mensajes> mensaje);
 
     }
 }

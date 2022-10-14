@@ -13,7 +13,7 @@ namespace Modelo
         public string? Name { get; set; }
         public bool IsActive { get; set; }
         public int Edad { get; set; }
-        public string? Password { get; set; }
+        public string? Contraseña { get; set; }
         public Roles? Rol { get; set; }
     }
 }

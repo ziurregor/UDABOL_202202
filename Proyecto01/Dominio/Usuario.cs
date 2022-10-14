@@ -82,7 +82,10 @@ namespace Dominio
         {
             //return repo.Login(userName, Password);
             //se busca el usuario y el password de la lista de usuarios
-            return true;
+            var user = repo.OptieneUsuarioPorUsername(userName);
+            if (user.Usuario == userName && user.Contraseña == Password)
+                return true;
+            return false;
 
         }
     }
