@@ -33,7 +33,6 @@
         "dependencies": {
           "Dominio": "1.0.0",
           "Modelo": "1.0.0",
-          "Newtonsoft.Json": "3.5.8",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -507,17 +506,6 @@
         }
       },
       "Microsoft.Extensions.Primitives/3.1.0": {},
-      "Newtonsoft.Json/3.5.8": {
-        "runtime": {
-          "lib/35/Newtonsoft.Json.dll": {
-            "assemblyVersion": "3.5.0.0",
-            "fileVersion": "3.5.0.0"
-          }
-        },
-        "compile": {
-          "lib/35/Newtonsoft.Json.dll": {}
-        }
-      },
       "Npgsql/4.1.2": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
@@ -662,28 +650,12 @@
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {}
         }
       },
-      "System.Collections.Immutable/1.7.0": {
-        "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
-        }
-      },
-      "System.ComponentModel.Annotations/4.7.0": {
-        "compile": {
-          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
-        }
-      },
-      "System.Diagnostics.DiagnosticSource/4.7.0": {
-        "compile": {
-          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {}
-        }
-      },
+      "System.Collections.Immutable/1.7.0": {},
+      "System.ComponentModel.Annotations/4.7.0": {},
+      "System.Diagnostics.DiagnosticSource/4.7.0": {},
       "System.Memory/4.5.3": {},
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
-      "System.Text.Json/4.7.0": {
-        "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        }
-      },
+      "System.Text.Json/4.7.0": {},
       "Dominio/1.0.0": {
         "dependencies": {
           "Infrestructura": "1.0.0",
@@ -2571,13 +2543,6 @@
       "sha512": "sha512-LEKAnX7lhUhSoIc2XraCTK3M4IU/LdVUzCe464Sa4+7F4ZJuXHHRzZli2mDbiT4xzAZhgqXbvfnb5+CNDcQFfg==",
       "path": "microsoft.extensions.primitives/3.1.0",
       "hashPath": "microsoft.extensions.primitives.3.1.0.nupkg.sha512"
-    },
-    "Newtonsoft.Json/3.5.8": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Xmri4q9s1NjuiBtOFkWMU9sUZdw5V7kFSf3CQQ3TlDyzWQHo94d5cHNxsSlnezGAZSPfdEG5k7bOrkzTe6rUOQ==",
-      "path": "newtonsoft.json/3.5.8",
-      "hashPath": "newtonsoft.json.3.5.8.nupkg.sha512"
     },
     "Npgsql/4.1.2": {
       "type": "package",

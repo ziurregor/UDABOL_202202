@@ -112,10 +112,13 @@ namespace Infrestructura
 
         public List<Users> LeerTabla()
         {
+            var lista = new List<Users>();
             using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
-                return context.User.ToList();
+
+                lista = context.User.ToList();
             }
+            return lista;
         }
 
         public List<Mensajes> ListarMensajes()
@@ -136,16 +139,12 @@ namespace Infrestructura
         public bool ModificarUsuario(Users users)// public bool editar(persona obj)
         {
             //throw new NotImplementedException();
-
             using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
                 var a = context.Update(users);
                 context.SaveChanges();
-
             }
-
             return true;
-
         }
 
         public Modelo.Users OptieneUsuarioPorUserId(int UserId)
@@ -168,10 +167,19 @@ namespace Infrestructura
             Users user = new Users();
             using (ChatSQLiteContext context = new ChatSQLiteContext())
             {
-                //user = context.User.Find(UserId);
-                 user = context.User.Where(p => p.Usuario == usuario).First();
+                //user = context.User.Find(usuario);
+                var u = context.User.Where(p => p.Usuario == usuario).FirstOrDefault();
+                if (u == null)
+                {
+                    return null;
+                }
+                else {
+                    return u;
+                }
             }
-            return user;
+
+
+            //return user;
         }
 
 

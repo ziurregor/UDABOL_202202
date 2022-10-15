@@ -4,6 +4,15 @@ using WebApplication1.Models;
 
 //1.- AÑADIR LA AUTHORIZACION
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using System.Security.Claims;
+
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
+using System.Text;
+using System.Data;
+using System.Xml.Linq;
+
 
 namespace WebApplication1.Controllers
 {
@@ -26,8 +35,34 @@ namespace WebApplication1.Controllers
 
         [Authorize(Roles = "Administrador,Empleado")]
         public IActionResult Ventas()
+        //private static List<Mensajes> Ventas()
         {
-            return View();
+            String apiUrl = "http://localhost:6202/api/Mensaje";//"https://localhost:5001/api/CustomerAPI";
+            HttpClient client = new HttpClient();
+
+            //var content = new StringContent(JsonConvert.SerializeObject(usuario_p), Encoding.UTF8, "application/json");
+
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            HttpResponseMessage response = client.GetAsync(apiUrl).Result;// PostAsJsonAsync(apiUrl, usuario_p).Result;
+
+            //ojo
+            List<Mensajes> mensajes = new List<Mensajes>();
+            //string apiUrl = "http://localhost:6202/api";//"https://localhost:5001/api/CustomerAPI";
+
+            //HttpClient client = new HttpClient();
+            //HttpResponseMessage response = client.GetAsync(apiUrl + string.Format("/Usuario", name)).Result;
+
+
+
+            if (response.IsSuccessStatusCode)
+            {
+                mensajes = JsonConvert.DeserializeObject<List<Mensajes>>(response.Content.ReadAsStringAsync().Result);
+            }
+
+            //return mensajes;
+            //fin ojo
+            return View(mensajes);
         }
 
         [Authorize(Roles = "Administrador,Supervisor")]

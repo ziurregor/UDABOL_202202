@@ -1,10 +1,65 @@
 ﻿<Properties StartupConfiguration="{15451A09-CB30-4FF4-86FC-3005B9FE138D}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/AccesoController.cs" relfile="WebApplication1/Controllers/AccesoController.cs" line="55" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="24" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="30" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="36" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="45" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="60" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/HomeController.cs" relfile="WebApplication1/Controllers/HomeController.cs" line="18" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/WebApplication1/WebApplication1/Controllers/AccesoController.cs" relfile="WebApplication1/Controllers/AccesoController.cs" line="68" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApplication1/Controllers/AccesoController.cs">
+    <Files>
+      <File FileName="WebApplication1/Controllers/HomeController.cs" Line="42" Column="27" />
+      <File FileName="WebApplication1/Controllers/AccesoController.cs" Line="50" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Privacy.cshtml" Line="6" Column="31" />
+      <File FileName="WebApplication1/Views/Acceso/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" Line="2197" Column="2" />
+      <File FileName="WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" Line="1" Column="15272" />
+      <File FileName="WebApplication1/Models/User.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/appsettings.json" Line="1" Column="1" />
+      <File FileName="WebApplication1/Program.cs" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Clientes.cshtml" Line="7" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Compras.cshtml" Line="1" Column="1" />
+      <File FileName="WebApplication1/Views/Home/Ventas.cshtml" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WebApplication1" expanded="True" />
+          <Node name="WebApplication1" expanded="True">
+            <Node name="WebApplication1" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="AccesoController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Acceso" expanded="True" />
+                <Node name="Home" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True">
+                        <Node name="bootstrap.css" expanded="True" />
+                        <Node name="bootstrap-reboot.css" expanded="True">
+                          <Node name="bootstrap-reboot.rtl.css" expanded="True" />
+                        </Node>
+                      </Node>
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -20,14 +75,13 @@
           <Value>JsonConvert.DeserializeObject&lt;dynamic&gt;(model)</Value>
           <Value>JsonDocument.Parse(model).RootElement.GetProperty("Usuario")</Value>
           <Value>model.Usuario</Value>
+          <Value>_usuario</Value>
+          <Value>claims</Value>
+          <Value>logger</Value>
+          <Value>claimsIdentity</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.WebApplication1 PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

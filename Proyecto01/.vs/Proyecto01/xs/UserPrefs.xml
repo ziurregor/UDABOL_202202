@@ -1,25 +1,44 @@
 ﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
   <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/Mensajes2Controller.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Coneccion.cs" relfile="Infrestructura/Coneccion.cs" line="154" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Controllers/LoginController.cs" relfile="Api/Controllers/LoginController.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Infrestructura/Mensaje.cs">
     <Files>
-      <File FileName="Infrestructura/Coneccion.cs" Line="50" Column="53" />
-      <File FileName="Proyecto01/Program.cs" Line="21" Column="1" />
-      <File FileName="Api/Controllers/MensajeController.cs" Line="6" Column="7" />
-      <File FileName="Infrestructura/IConeccion.cs" Line="38" Column="52" />
-      <File FileName="Test/Startup.cs" Line="1" Column="1" />
-      <File FileName="Test/Program.cs" Line="1" Column="1" />
-      <File FileName="Api/Controllers/MensajesController.cs" Line="1" Column="1" />
-      <File FileName="Api/Controllers/Mensajes2Controller.cs" Line="1" Column="1" />
+      <File FileName="Infrestructura/IConeccion.cs" Line="1" Column="1" />
+      <File FileName="Proyecto01/Program.cs" Line="23" Column="48" />
+      <File FileName="Infrestructura/ChatSQLiteContext.cs" Line="21" Column="1" />
+      <File FileName="Api/Properties/launchSettings.json" Line="11" Column="16" />
+      <File FileName="Dominio/Usuario.cs" Line="102" Column="1" />
+      <File FileName="Api/Controllers/LoginController.cs" Line="39" Column="1" />
+      <File FileName="Modelo/Users.cs" Line="1" Column="1" />
+      <File FileName="Api/Controllers/UsuarioController.cs" Line="25" Column="1" />
+      <File FileName="Api/Controllers/MensajeController.cs" Line="15" Column="18" />
+      <File FileName="Infrestructura/Mensaje.cs" Line="41" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
             <Node name="Api" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="Mensajes2Controller.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+            <Node name="Dominio" expanded="True" />
+            <Node name="Infrestructura" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" expanded="True" />
               </Node>
             </Node>
+            <Node name="Modelo" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -28,18 +47,21 @@
           <Value>users</Value>
           <Value>a</Value>
           <Value>user</Value>
+          <Value>context.User.Where(p =&gt; p.Usuario == usuario).First()</Value>
+          <Value>user</Value>
+          <Value>context.User.Find(usuario)</Value>
+          <Value>user.Login((String)model.Usuario, (String)model.Contraseña)</Value>
+          <Value>u</Value>
+          <Value>context.User.Where(p =&gt; p.Usuario == usuario)</Value>
+          <Value>context.User.Contains("regor").</Value>
+          <Value>context.User.Where(p =&gt; p.Usuario == usuario).FirstOrDefault()</Value>
+          <Value>user.Login((String)model.Usuario, (String)model.Contraseña)</Value>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>Api.Test/Api.Test.csproj</String>
   </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

@@ -35,6 +35,11 @@ namespace Infrestructura
             throw new NotImplementedException();
         }
 
+        public bool EliminarUsuario(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool EscribirTabla(List<Users> lista)
         {
             throw new NotImplementedException();
@@ -51,6 +56,11 @@ namespace Infrestructura
         }
 
         public bool GuardarRol(Roles rol)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool GuardarUsuario(Users users)
         {
             throw new NotImplementedException();
         }

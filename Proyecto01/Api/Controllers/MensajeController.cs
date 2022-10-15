@@ -15,6 +15,17 @@ namespace Api.Controllers
     public class MensajeController : Controller
     {
         // GET: /<controller>/  api/Mensajes
+        // GET: /<controller>/  api/usuarios
+        [HttpGet]
+        public IEnumerable<Modelo.Mensajes> Get() //IActionResult Index()
+        {
+            Mensaje mensaje = new Dominio.Mensaje();
+            List<Modelo.Mensajes> lista = new List<Modelo.Mensajes>();
+            //lista.Add(new Users { Usuario = "Regor", Name = "Roger Ruiz", IsActive = true, Edad = 47, Contraseña = "123456" });
+            lista = mensaje.ListarMensajes();
+
+            return lista;
+        }
 
         // DELETE
         [HttpPost]

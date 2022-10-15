@@ -19,11 +19,16 @@ namespace WebApplication1.Data
 
         //}
 
-        public Usuario ValidarUsuario(string _correo, string _clave) {
+        public User ValidarUsuario(string _correo, string _clave) {
 
             //return ListaUsuario().Where(item => item.Correo == _correo && item.Clave == _clave).FirstOrDefault();
-
-            return new Usuario() { User = _correo, Contraseña = _correo};
+        //     public int UserId { get; set; }
+        //public string User { get; set; }
+        //public string Name { get; set; }
+        //public bool IsActive { get; set; }
+        //public int Edad { get; set; }
+        //public string Contraseña { get; set; }
+            return new User() { Usuario = _correo, Contraseña = _clave };
 
         }
 

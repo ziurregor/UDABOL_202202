@@ -31,6 +31,8 @@ C:/Users/Plata/Desktop/uda/UDABOL_202202/UDABOL_202202/Proyecto01/Infrestructura
 C:/Users/Plata/Desktop/uda/UDABOL_202202/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.pdb
 C:/Users/Plata/Desktop/uda/UDABOL_202202/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.genruntimeconfig.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.deps.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.runtimeconfig.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.runtimeconfig.dev.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Modelo.dll
@@ -43,6 +45,4 @@ C:/Users/Plata/Desktop/uda/UDABOL_202202/UDABOL_202202/Proyecto01/Infrestructura
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.csproj.CopyComplete
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.pdb
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.runtimeconfig.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/bin/Debug/netcoreapp3.1/Infrestructura.runtimeconfig.dev.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/obj/Debug/netcoreapp3.1/Infrestructura.genruntimeconfig.cache

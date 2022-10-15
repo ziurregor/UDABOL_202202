@@ -5,6 +5,11 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/appsettings.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Dominio
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.deps.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.runtimeconfig.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.runtimeconfig.dev.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Microsoft.Data.Sqlite.dll
@@ -46,9 +51,4 @@
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/obj/Debug/netcoreapp3.1/Proyecto01.csproj.CopyComplete
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/obj/Debug/netcoreapp3.1/Proyecto01.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/obj/Debug/netcoreapp3.1/Proyecto01.pdb
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.deps.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.runtimeconfig.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.runtimeconfig.dev.json
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/bin/Debug/netcoreapp3.1/Proyecto01.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Proyecto01/obj/Debug/netcoreapp3.1/Proyecto01.genruntimeconfig.cache

@@ -1,10 +1,13 @@
 ﻿<Properties StartupConfiguration="{70FD5FBC-88F6-46E9-99E6-383A2A359395}|Default">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI_EF_MVC_Core/Views/Home/Login.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI_EF_MVC_Core/Views/Home/Index (copiar).cshtml">
     <Files>
       <File FileName="WebAPI_EF_MVC_Core/Models/Users.cs" Line="16" Column="22" />
       <File FileName="WebAPI_EF_MVC_Core/Controllers/HomeController.cs" Line="26" Column="1" />
-      <File FileName="WebAPI_EF_MVC_Core/Views/Home/Login.cshtml" Line="39" Column="68" />
+      <File FileName="WebAPI_EF_MVC_Core/Views/Home/Login.cshtml" Line="50" Column="5" />
+      <File FileName="WebAPI_EF_MVC_Core/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="WebAPI_EF_MVC_Core/Views/Home/Index (copiar).cshtml" Line="2" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +19,7 @@
               <Node name="Properties" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
-                  <Node name="Login.cshtml" selected="True" />
+                  <Node name="Index (copiar).cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -34,10 +37,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.WebAPI__EF__MVC__Core PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.WebAPI__EF__MVC__Core PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

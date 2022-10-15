@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Modelo;
 
 namespace Infrestructura
@@ -32,7 +33,13 @@ namespace Infrestructura
 
         public List<Mensajes> LeerTabla()
         {
-            throw new NotImplementedException();
+            var lista = new List<Modelo.Mensajes>();
+            using (ChatSQLiteContext context = new ChatSQLiteContext())
+            {
+
+                lista = context.Mensaje.ToList();
+            }
+            return lista;
         }
 
         public bool RecuperaRegistro(int Id)

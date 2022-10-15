@@ -10,6 +10,7 @@ using System.Security.Claims;
 using Newtonsoft.Json;
 using System.Text;
 using System.Net.Http.Headers;
+using System.Data;
 
 namespace WebApplication1.Controllers
 {
@@ -22,13 +23,13 @@ namespace WebApplication1.Controllers
 
         //USAR REFERENCIAS Models y Data
         [HttpPost]
-        public async Task<IActionResult> Index(Usuario _usuario)
+        public async Task<IActionResult> Index(User _usuario)
         {
             DA_Usuario _da_usuario = new DA_Usuario();
 
-            var usuario = _da_usuario.ValidarUsuario(_usuario.User,_usuario.Contraseña);
+            var usuario_p = _da_usuario.ValidarUsuario(_usuario.Usuario,_usuario.Contraseña);
 
-            if (usuario != null)
+            if (usuario_p != null)
             {
 
                 //2.- CONFIGURACION DE LA AUTENTICACION
@@ -41,6 +42,7 @@ namespace WebApplication1.Controllers
                 //foreach (string rol in usuario.Roles) {
                 //    claims.Add(new Claim(ClaimTypes.Role, rol));
                 //}
+                claims.Add(new Claim(ClaimTypes.Role, "Administrador"));
                 var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
 
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimsIdentity));
@@ -50,17 +52,18 @@ namespace WebApplication1.Controllers
 
                 HttpClient client = new HttpClient();
 
-                var content = new StringContent(JsonConvert.SerializeObject(usuario), Encoding.UTF8, "application/json");
+                var content = new StringContent(JsonConvert.SerializeObject(usuario_p), Encoding.UTF8, "application/json");
                 //client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 //+ string.Format("/Login")
 
                 //Usuario u = new Usuario() { Usuario = Usuario, Contraseña = Password };
                 //new User { Name = "Roger.Ruiz@jalasoft.org", IsActive = true }
-                HttpResponseMessage response = client.PostAsJsonAsync(apiUrl, usuario).Result;
+                HttpResponseMessage response = client.PostAsJsonAsync(apiUrl, usuario_p).Result;
 
-
-
+                
+                //var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                //Roles = "Administrador,Empleado")]
 
                 return RedirectToAction("Index", "Home");
             }

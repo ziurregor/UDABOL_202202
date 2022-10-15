@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "T4t6b85HWMtgoT+AgdfRmLeb4oaBteRp28ERt1kcqy4=",
+  "Source": "Api",
+  "BasePath": "_content/Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/Dominio.csproj",
+      "Version": 1,
+      "Source": "Dominio",
+      "GetPublishAssetsTargets": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectStaticWebAssetsV2",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "TargetFramework;RuntimeIdentifier"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

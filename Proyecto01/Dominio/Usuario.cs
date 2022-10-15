@@ -91,9 +91,13 @@ namespace Dominio
 
             var user = repo.OptieneUsuarioPorUsername(userName);
 
-            if(user.Usuario == userName || user.Contraseña==Password)
-            return true;
+            if (user != null)
+            {
+                if (user.Usuario == userName || user.Contraseña == Password)
+                    return true;
+            }
             return false;
+
 
         }
 
@@ -111,6 +115,18 @@ namespace Dominio
         Users IUsuario.EliminarUsuarioPorUserId(int userId)
         {
             throw new NotImplementedException();
+        }
+
+        public bool LoginUsuario(string usuario, string contrasena)
+        {
+            //return repo.Login(userName, Password);
+            //se busca el usuario y el password de la lista de usuarios
+
+            var user = repo.OptieneUsuarioPorUsername(usuario);
+
+            if (user.Usuario == usuario || user.Contraseña == contrasena)
+                return true;
+            return false;
         }
     }
 }

@@ -98,16 +98,9 @@ C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Do
 C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.RazorTargetAssemblyInfo.cache
 C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CopyComplete
 C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.genruntimeconfig.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.AssemblyReference.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.GeneratedMSBuildEditorConfig.editorconfig
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfoInputs.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfo.cs
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CoreCompileInputs.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.MvcApplicationPartsAssemblyInfo.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.dll
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio.deps.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio.runtimeconfig.json
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio.runtimeconfig.dev.json
@@ -144,8 +137,15 @@ C:/Users/Max-Soria/Desktop/udabol/Proyecto final/Git/UDABOL_202202/Proyecto01/Do
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Modelo.dll
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Modelo.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Infrestructura.pdb
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.AssemblyReference.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfoInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.AssemblyInfo.cs
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CoreCompileInputs.cache
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.MvcApplicationPartsAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/staticwebassets/Dominio.StaticWebAssets.Manifest.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.RazorTargetAssemblyInfo.cache
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.csproj.CopyComplete
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.dll
+/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.pdb
 /Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/obj/Debug/netcoreapp3.1/Dominio.genruntimeconfig.cache
-/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Dominio/bin/Debug/netcoreapp3.1/Dominio

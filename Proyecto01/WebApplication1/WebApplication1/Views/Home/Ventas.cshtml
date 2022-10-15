@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<Mensajes>
 @{
     ViewData["Title"] = "Ventas";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -7,5 +7,20 @@
     <div class="alert alert-success">
         <h2 class="display-4">Soy la pagina VENTAS</h2>
     </div>
-    
+    <table border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <th>CustomerID</th>
+            <th>ContactName</th>
+            <th>City</th>
+        </tr>
+        @foreach (Mensajes customer in Model)
+        {
+            <tr>
+                <td>@customer.Mensaje</td>
+                @*<td>@customer.ContactName</td>
+                    <td>@customer.City</td>*@
+            </tr>
+        }
+    </table>
+
 </div>
