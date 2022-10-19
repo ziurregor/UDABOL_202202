@@ -17,6 +17,8 @@ namespace Infrestructura
         public Boolean EliminarRegistro(Int32 Id);
 
         public Boolean GrabaRegistro(Modelo.Roles roles);
+
+        public bool EliminarRolUltimo(Roles Rol);
     }
 }
 

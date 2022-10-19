@@ -88,6 +88,11 @@ namespace Dominio
             return false;
 
         }
+
+        public bool AdicionarUsuario(Users users)
+        {
+            return repo.AdicionarUsuario(users);
+        }
     }
 }
 

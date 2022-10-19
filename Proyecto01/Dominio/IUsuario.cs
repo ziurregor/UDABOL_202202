@@ -22,6 +22,8 @@ namespace Dominio
 
         public bool Login(string userName, string Password);
 
+        public bool AdicionarUsuario(Users users);
+
     }
 }
 

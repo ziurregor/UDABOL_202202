@@ -88,5 +88,10 @@ namespace Infrestructura
         {
             throw new NotImplementedException();
         }
+
+        public bool AdicionarUsuario(Users users)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

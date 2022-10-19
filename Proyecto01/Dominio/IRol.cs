@@ -13,5 +13,7 @@ namespace Dominio
         public bool EliminarRol(Int32 idRol);
 
         public Boolean RecuperaRol(Int32 Id);
+
+        public bool EliminarRolUltimo(Roles Rol);
     }
 }

@@ -28,5 +28,10 @@ namespace Dominio
         {
             return repo.RecuperaRegistro(Id);
         }
+
+        public bool EliminarRolUltimo(Roles Rol)
+        {
+            return repo.EliminarRolUltimo(Rol);
+        }
     }
 }

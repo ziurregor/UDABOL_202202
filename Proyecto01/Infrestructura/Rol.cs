@@ -39,6 +39,11 @@ namespace Infrestructura
         {
             throw new NotImplementedException();
         }
+
+        public bool EliminarRolUltimo(Roles Rol)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

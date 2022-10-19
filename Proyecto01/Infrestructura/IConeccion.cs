@@ -22,6 +22,8 @@ namespace Infrestructura
 
         public Modelo.Users OptieneUsuarioPorUsername(String usuario);
 
+        public bool AdicionarUsuario(Users users);
+
     }
 }
 
