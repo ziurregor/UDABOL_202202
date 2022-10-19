@@ -1,15 +1,6 @@
 ﻿<Properties StartupConfiguration="{299D77E2-456C-4D12-B8F9-D0CF98D58BA3}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Coneccion.cs" relfile="Infrestructura/Coneccion.cs" line="154" column="1" />
-      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Controllers/LoginController.cs" relfile="Api/Controllers/LoginController.cs" line="39" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Infrestructura/Mensaje.cs">
+  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/LoginController.cs">
     <Files>
       <File FileName="Infrestructura/IConeccion.cs" Line="1" Column="1" />
       <File FileName="Proyecto01/Program.cs" Line="23" Column="48" />
@@ -27,7 +18,9 @@
         <State name="__root__">
           <Node name="Proyecto01" expanded="True">
             <Node name="Api" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="LoginController.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
             </Node>
             <Node name="Dominio" expanded="True" />
@@ -60,8 +53,17 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <DisabledProjects>
     <String>Api.Test/Api.Test.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.ItemProperties.Proyecto01 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Infrestructura/Coneccion.cs" relfile="Infrestructura/Coneccion.cs" line="154" column="1" />
+      <Breakpoint file="/Users/rogerruizescobar/Documents/UDABOL/UDABOL_202202/Proyecto01/Api/Controllers/LoginController.cs" relfile="Api/Controllers/LoginController.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
