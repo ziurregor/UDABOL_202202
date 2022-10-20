@@ -11,10 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrestructura", "Infrestru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{64599355-E172-41ED-A08F-AB97CDC96800}"
 EndProject
-Project("{9344BDBB-3E7F-41FC-A0DD-8665D75EE146}") = "Api.Test", "Api.Test\Api.Test.csproj", "{8EB312AB-7090-4D92-B2D8-FBC46CF6BC70}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto01", "Proyecto01\Proyecto01.csproj", "{616B11CB-A014-4A5C-BAD6-A8F0E837E6DE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -37,14 +33,6 @@ Global
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{64599355-E172-41ED-A08F-AB97CDC96800}.Release|anycpu.Build.0 = Release|Any CPU
-		{8EB312AB-7090-4D92-B2D8-FBC46CF6BC70}.Debug|anycpu.ActiveCfg = Debug|Any CPU
-		{8EB312AB-7090-4D92-B2D8-FBC46CF6BC70}.Debug|anycpu.Build.0 = Debug|Any CPU
-		{8EB312AB-7090-4D92-B2D8-FBC46CF6BC70}.Release|anycpu.ActiveCfg = Release|Any CPU
-		{8EB312AB-7090-4D92-B2D8-FBC46CF6BC70}.Release|anycpu.Build.0 = Release|Any CPU
-		{616B11CB-A014-4A5C-BAD6-A8F0E837E6DE}.Debug|anycpu.ActiveCfg = Debug|Any CPU
-		{616B11CB-A014-4A5C-BAD6-A8F0E837E6DE}.Debug|anycpu.Build.0 = Debug|Any CPU
-		{616B11CB-A014-4A5C-BAD6-A8F0E837E6DE}.Release|anycpu.ActiveCfg = Release|Any CPU
-		{616B11CB-A014-4A5C-BAD6-A8F0E837E6DE}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
